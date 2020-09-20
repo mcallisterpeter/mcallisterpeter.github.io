@@ -6,3 +6,8 @@
     font-size: 30px;
     border-radius: 5px 5px;
 }
+
+hr {
+    display: black;
+    border-width: 1px;
+}
