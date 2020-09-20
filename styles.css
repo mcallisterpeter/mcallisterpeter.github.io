@@ -11,3 +11,12 @@ hr {
     display: black;
     border-width: 1px;
 }
+
+.myfooter {
+    padding: 15px;
+    text-align: center;
+    background-color: lightcoral;
+    color: black;
+    font-size: 12px;
+    border-radius: 5px 5px;
+}
