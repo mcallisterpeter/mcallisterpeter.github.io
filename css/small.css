@@ -7,12 +7,10 @@ body {
 }
 
 .myheader {
-    padding: 15px;
     text-align: left;
     background-color: orange;
     color: black;
     font-size: 30px;
-    border-radius: 5px 5px;
 }
 
 .myphoto {
@@ -26,10 +24,13 @@ hr {
 }
 
 .myfooter {
-    padding: 15px;
     text-align: center;
     background-color: lightgoldenrodyellow;
     color: black;
     font-size: 12px;
+}
+
+.myheader, .myfooter {
+    padding: 15px;
     border-radius: 5px 5px;
 }
