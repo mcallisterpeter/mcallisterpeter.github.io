@@ -1,4 +1,6 @@
+@media only screen and (min-width: 32.5em) {
 
-.myphoto (min-width: 32.5em) {
-    float: right;
+    .myphoto (min-width: 32.5em) {
+        float: right;
+    }
 }
