@@ -2,6 +2,7 @@
 h1 {
     font-size: 2rem;
     margin: 0.15rem;
+    text-align: center;
 }
 
 h2 {
@@ -28,6 +29,7 @@ body {
 .myphoto {
     width: 200px;
     height: auto;
+    position: center;
 }
 
 .myassignments {
