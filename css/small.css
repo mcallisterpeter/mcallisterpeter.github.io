@@ -27,9 +27,10 @@ body {
 }
 
 .myphoto {
-    width: 200px;
+    width: 40%;
     height: auto;
-    position: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .myassignments {
