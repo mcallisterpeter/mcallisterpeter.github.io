@@ -30,10 +30,9 @@ body {
     height: auto;
 }
 
-/*hr {
-    display: black;
-    border-width: 1px;
-}*/
+.myassignments {
+    text-align: left;
+}
 
 .myfooter {
     text-align: center;
