@@ -7,12 +7,17 @@ h1 {
 h2 {
     font-size: 1rem;
     margin-bottom: 0.5rem;
-    /*border-bottom: 1px solid black;*/
+    border-bottom: 1px solid black;
+    text-align: center;
 }
 
 h3 {
     font-size: .5rem;
     text-align: center;
+}
+
+p {
+    text-align: left;
 }
 
 body {
@@ -24,23 +29,25 @@ body {
 }
 
 .myheader {
-    text-align: left;
     background-color: orange;
     color: black;
     font-size: 30px;
 }
 
+#homebutton {
+    font-size: 1rem;
+}
+
 .designexamples {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 2.5%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    column-gap: 20px;
+    margin: 2.5% 2.5% 2.5% 2.5%;
 }
 
 .leftsect, .middlesect, .rightsect {
     background-color: grey;
-    width: 30%;
+    border-radius: 5px;
 }
 
 .scrnshts {
