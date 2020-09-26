@@ -30,14 +30,17 @@ body {
     font-size: 30px;
 }
 
-.leftsect {
+.designexamples {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
 .leftsect, .middlesect, .rightsect {
     background-color: grey;
     width: 30%;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 .scrnshts {
