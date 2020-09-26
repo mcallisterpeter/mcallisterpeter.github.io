@@ -31,7 +31,7 @@ body {
 }
 
 #homebutton {
-    font-size: 1rem;
+    font-size: 0.75rem;
     text-align: left;
 }
 
@@ -49,13 +49,15 @@ body {
 }
 
 .scrnshts {
-    width: 95%;
+    width: 85%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: 3px solid black;
-    border-radius: 5px 5px;
+    border-top: 30px solid black;
+    border-bottom: 30px solid black;
+    border-radius: 10px 10px;
 }
 
 .discription {
