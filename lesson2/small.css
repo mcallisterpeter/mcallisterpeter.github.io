@@ -1,0 +1,51 @@
+
+h1 {
+    font-size: 2rem;
+    margin: 0.15rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid black
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Noto Sans', sans-serif;
+    height: 100%;
+    margin: 15px;
+}
+
+.myheader {
+    text-align: left;
+    background-color: orange;
+    color: black;
+    font-size: 30px;
+}
+
+.myphoto {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myassignments {
+    text-align: left;
+}
+
+.myfooter {
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    font-size: 12px;
+}
+
+.myheader, .myfooter {
+    padding: 0.75rem;
+    border-radius: 5px 5px;
+}

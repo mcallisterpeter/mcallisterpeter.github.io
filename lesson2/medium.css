@@ -1,0 +1,19 @@
+@media only screen and (min-width: 560px) {
+
+    h1 {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .myphoto {
+        box-shadow: 2.5px 2.5px 30px black;
+        border-radius: 0 10px 0 0;
+        float: right;
+        margin-top: -30px;
+    }
+
+}
