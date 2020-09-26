@@ -1,14 +1,18 @@
 
 h1 {
     font-size: 2rem;
-    margin: 0.15rem;
     text-align: center;
 }
 
 h2 {
     font-size: 1rem;
     margin-bottom: 0.5rem;
-    border-bottom: 1px solid black
+    /*border-bottom: 1px solid black;*/
+}
+
+h3 {
+    font-size: .5rem;
+    text-align: center;
 }
 
 body {
