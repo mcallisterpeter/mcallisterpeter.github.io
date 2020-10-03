@@ -11,19 +11,42 @@ h2 {
 }
 
 body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 10px;
     font-size: 16px;
     line-height: 1.5;
     font-family: 'Noto Sans', sans-serif;
-    height: 100%;
-    margin: 15px;
 }
 
 header {
-    text-align: center;
     background-color: orange;
     color: black;
     font-size: 30px;
     border-radius: 5px 5px 0 0;
+}
+
+nav {
+    background-color: rgb(252, 199, 101);
+}
+
+nav, ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav, ul, li {
+    flex: 1 1 100%;
+}
+
+nav, ul, li, a {
+    display: black;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .myphoto {
@@ -34,18 +57,30 @@ header {
     margin-right: auto;
 }
 
-.myassignments {
+.mycontent {
+    max-width: 950px;
     text-align: left;
+    margin: 0 auto;
 }
 
-footer {
-    text-align: center;
+footer, .byu {
     background-color: lightgoldenrodyellow;
     color: black;
     font-size: 12px;
     border-radius: 0 0 5px 5px;
 }
 
-header, footer{
+.byu {
+    color: blue;
+}
+
+.byu:hover {
+    color: lightblue;
+}
+
+header, nav, footer{
     padding: 0.75rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
 }
