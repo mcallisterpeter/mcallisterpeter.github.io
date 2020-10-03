@@ -40,6 +40,10 @@ nav {
     background-color: rgb(252, 199, 101);
 }
 
+a:hover {
+    color: black;
+}
+
 nav, ul {
     display: flex;
     list-style-type: none;
