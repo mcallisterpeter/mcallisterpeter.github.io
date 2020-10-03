@@ -10,6 +10,10 @@ h2 {
     margin-bottom: 0.5rem;
 }
 
+.sitepurpose {
+    text-indent: 50px;
+}
+
 body {
     max-width: 1000px;
     margin: 0 auto;
