@@ -102,6 +102,8 @@ th, td {
 }
 
 .typhead{
+    font-size: 40px;
+    font-weight: bold;
     background-color: orange;
 }
 
