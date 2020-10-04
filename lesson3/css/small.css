@@ -114,6 +114,16 @@ th, td {
     font-size: 17px;
 }
 
+.typh1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.typh2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .typpar {
     font-size: 16px;
 }
