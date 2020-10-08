@@ -1,0 +1,160 @@
+
+h1 {
+    font-size: 32px;
+    margin: 0.15rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
+
+.myparagraph {
+    text-indent: 50px;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    background-color: orange;
+    color: black;
+    font-size: 30px;
+    border-radius: 5px 5px 0 0;
+}
+
+.myicon {
+    width: 130px;
+}
+
+nav {
+    background-color: #fcc765;
+}
+
+a:hover {
+    color: black;
+}
+
+nav, ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav, ul, li {
+    flex: 1 1 100%;
+}
+
+nav, ul, li, a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.mycontent {
+    max-width: 950px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 3px;
+    text-align: center;
+}
+
+.first-color {
+    background-color: #ffa500;
+}
+
+.second-color {
+    background-color: #fcc765;
+}
+
+.third-color {
+    background-color: #fafad2;
+}
+
+.fourth-color {
+    background-color: #ffffff;
+}
+
+.typhead{
+    font-size: 40px;
+    font-weight: bold;
+    background-color: orange;
+}
+
+.typnav{
+    background-color: #fcc765;
+    list-style-type: none;
+    display: black;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.typh1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.typh2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.typpar {
+    font-size: 16px;
+}
+
+.typfoot{
+    font-size: 12px;
+    background-color: lightgoldenrodyellow;
+}
+
+footer, .byu {
+    background-color: #fafad2;
+    color: #000000;
+    font-size: 12px;
+    border-radius: 0 0 5px 5px;
+}
+
+.byu {
+    color: blue;
+}
+
+.byu:hover {
+    color: lightblue;
+}
+
+header, nav, footer{
+    padding: 0.75rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navback {
+    color: blue;
+}
