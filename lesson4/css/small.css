@@ -55,7 +55,7 @@ nav, ul, li {
     min-height: 40px;
 }
 
-nav, ul, li, a {
+nav, ul, li, .nava {
     display: block;
     color: white;
     text-decoration: none;
@@ -138,19 +138,19 @@ th, td {
 
 footer {
     border-radius: 0 0 5px 5px;
+    color: #000000;
 }
 
 .byu {
     color: blue;
 }
 
-.byu:hover {
+.navback:hover, .byu:hover {
     color: lightblue;
 }
 
 footer, .byu {
     background-color: #fafad2;
-    color: #000000;
     font-size: 12px;
 }
 
@@ -166,6 +166,7 @@ header, footer {
 
 .navback {
     color: blue;
-    justify-content: left;
     font-size: 12px;
+    display: block;
+    text-align: left;
 }
