@@ -6,6 +6,7 @@ try {
   alert('Error with code or your browser does not support Locale');
 }
 
+//Collapsable navigation
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
