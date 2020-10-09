@@ -5,3 +5,7 @@ try {
 } catch (e) {
   alert('Error with code or your browser does not support Locale');
 }
+
+function toggleMenu() {
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+}
