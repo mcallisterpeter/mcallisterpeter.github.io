@@ -38,20 +38,21 @@ nav {
     background-color: #fcc765;
 }
 
-a:hover {
-    color: black;
+li:hover {
+    background-color: orange;
 }
 
 nav, ul {
     display: flex;
     list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
+    margin: 0;
 }
 
 nav, ul, li {
     flex: 1 1 100%;
+    min-height: 40px;
 }
 
 nav, ul, li, a {
@@ -59,10 +60,12 @@ nav, ul, li, a {
     color: white;
     text-decoration: none;
     font-size: 17px;
+    padding: 0;
 }
 
 .mycontent {
     max-width: 950px;
+    min-height: 100px;
     text-align: left;
     margin: 0 auto;
 }
@@ -133,10 +136,7 @@ th, td {
     background-color: lightgoldenrodyellow;
 }
 
-footer, .byu {
-    background-color: #fafad2;
-    color: #000000;
-    font-size: 12px;
+footer {
     border-radius: 0 0 5px 5px;
 }
 
@@ -148,13 +148,24 @@ footer, .byu {
     color: lightblue;
 }
 
+footer, .byu {
+    background-color: #fafad2;
+    color: #000000;
+    font-size: 12px;
+}
+
 header, nav, footer{
-    padding: 0.75rem;
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
 
+header, footer {
+    padding: 12px;
+}
+
 .navback {
     color: blue;
+    justify-content: left;
+    font-size: 12px;
 }
