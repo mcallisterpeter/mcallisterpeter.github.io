@@ -86,22 +86,22 @@ footer {
     color: blue;
 }
 
-.navback:hover .byu:hover {
+.navback:hover, .byu:hover {
     color: lightblue;
 }
 
-footer .byu {
+footer, .byu {
     background-color: #fafad2;
     font-size: 12px;
 }
 
-header nav footer{
+header, nav, footer{
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
 
-header footer {
+header, footer {
     padding: 12px;
 }
 
