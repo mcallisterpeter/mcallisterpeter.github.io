@@ -1,4 +1,4 @@
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 520px) {
 
     h1 {
         font-size: 40px;
@@ -17,7 +17,7 @@
         flex: 1 1 auto;
     }
 
-    .navigation .nava {
+    .navigation a {
         text-align: center;
     }
 
