@@ -1,13 +1,10 @@
 
 h1 {
     font-size: 32px;
-    margin: 0.15rem;
-    text-align: center;
 }
 
 h2 {
     font-size: 16px;
-    margin-bottom: 0.5rem;
 }
 
 body {
@@ -22,12 +19,26 @@ body {
 header {
     background-color: orange;
     color: black;
-    font-size: 30px;
-    border-radius: 5px 5px 0 0;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .myicon {
     width: 130px;
+}
+
+.sitename {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.sitemotto {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
 }
 
 nav {
@@ -74,7 +85,7 @@ nav {
 }
 
 footer {
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 10px 10px;
     color: #000000;
 }
 
