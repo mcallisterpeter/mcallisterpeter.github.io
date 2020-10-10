@@ -86,7 +86,7 @@ footer {
     color: blue;
 }
 
-.navback:hover, .byu:hover {
+.navback:hover .byu:hover {
     color: lightblue;
 }
 
