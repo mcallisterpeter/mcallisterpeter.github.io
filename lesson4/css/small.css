@@ -1,16 +1,14 @@
 
 h1 {
-    font-size: 32px;
+    font-size: 24px;
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 body {
-    max-width: 1000px;
     margin: 0 auto;
-    padding-top: 10px;
     font-size: 16px;
     line-height: 1.5;
     font-family: 'Noto Sans', sans-serif;
@@ -19,14 +17,14 @@ body {
 header {
     background-color: orange;
     color: black;
-    border-radius: 10px 10px 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .myicon {
-    width: 130px;
+    width: 70px;
+    margin-right: 5px;
 }
 
 .sitename {
@@ -36,6 +34,7 @@ header {
 }
 
 .sitemotto {
+    text-align: left;
     margin: 0;
     padding: 0;
     font-style: italic;
@@ -43,13 +42,13 @@ header {
 
 nav {
     margin: 0 auto;
-    max-width: 760px;
     background-color: #fcc765;
 }
 
 .navigation {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .navigation li:first-child {
@@ -63,7 +62,7 @@ nav {
 .navigation a {
     display: block;
     padding: 0.75rem;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     color: white;
 }
@@ -78,14 +77,31 @@ nav {
 }
 
 .mycontent {
-    max-width: 950px;
+    max-width: 85%;
     min-height: 100px;
     text-align: left;
     margin: 0 auto;
 }
 
+.subcontent {
+    height: 100px;
+    margin: 15px;
+    padding: 5px;
+    background: repeating-linear-gradient(
+                    45deg,
+                    #e6e6e6,
+                    #e6e6e6 10px,
+                    #d3d3d3 10px,
+                    #d4d4d4 20px);
+    border: 2px dotted gray;
+    border-radius: 5px 5px 5px 5px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer {
-    border-radius: 0 0 10px 10px;
     color: #000000;
 }
 
@@ -103,7 +119,6 @@ footer, .byu {
 }
 
 header, nav, footer{
-    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
