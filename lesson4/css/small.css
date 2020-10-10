@@ -85,7 +85,8 @@ nav {
 
 .subcontent {
     height: 100px;
-    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding: 5px;
     background: repeating-linear-gradient(
                     45deg,
