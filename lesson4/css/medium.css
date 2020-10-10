@@ -8,14 +8,21 @@
         font-size: 24px;
     }
 
-    nav, ul, li, .nava {
-        font-size: 12px;
+    .navigation {
+        display: flex;
     }
 
-    nav, ul, li, .nava {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .navigation .nava {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
     }
 
 }

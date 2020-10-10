@@ -35,32 +35,39 @@ header {
 }
 
 nav {
+    margin: 0 auto;
     background-color: #fcc765;
 }
 
-li:hover {
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation .nava {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.navigation .nava:hover {
+    color: black;
     background-color: orange;
 }
 
-nav, ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    margin: 0;
-}
-
-nav, ul, li {
-    flex: 1 1 100%;
-    min-height: 40px;
-}
-
-nav, ul, li, .nava {
+.responsive li {
     display: block;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    padding: 0;
 }
 
 .mycontent {
@@ -68,72 +75,6 @@ nav, ul, li, .nava {
     min-height: 100px;
     text-align: left;
     margin: 0 auto;
-}
-
-table {
-    table-layout: fixed;
-    width: 100%;
-    margin-bottom: 30px;
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 3px;
-    text-align: center;
-}
-
-.first-color {
-    background-color: #ffa500;
-}
-
-.second-color {
-    background-color: #fcc765;
-}
-
-.third-color {
-    background-color: #fafad2;
-}
-
-.fourth-color {
-    background-color: #ffffff;
-}
-
-.typhead{
-    font-size: 40px;
-    font-weight: bold;
-    background-color: orange;
-}
-
-.typnav{
-    background-color: #fcc765;
-    list-style-type: none;
-    display: black;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.typh1 {
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.typh2 {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.typpar {
-    font-size: 16px;
-}
-
-.typfoot{
-    font-size: 12px;
-    background-color: lightgoldenrodyellow;
 }
 
 footer {
@@ -149,18 +90,18 @@ footer {
     color: lightblue;
 }
 
-footer, .byu {
+footer .byu {
     background-color: #fafad2;
     font-size: 12px;
 }
 
-header, nav, footer{
+header nav footer{
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
 
-header, footer {
+header footer {
     padding: 12px;
 }
 
