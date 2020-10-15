@@ -31,4 +31,16 @@
         font-size: 12px;
     }
 
+    .summary {
+        max-width: 300px;
+    }
+
+    .summary h2 {
+        font-size: 24px;
+    }
+    
+    .sumtable {
+        font-size: 17px;
+    }
+
 }
