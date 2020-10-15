@@ -40,14 +40,6 @@ header {
     font-style: italic;
 }
 
-.announce {
-    display: hide;
-}
-
-.anntext {
-    display: none;
-}
-
 nav {
     margin: 0 auto;
     background-color: #fcc765;
@@ -92,10 +84,9 @@ nav {
 }
 
 .subcontent {
-    height: 100px;
+    position: relative;
     margin-top: 15px;
     margin-bottom: 15px;
-    padding: 5px;
     background: repeating-linear-gradient(
                     45deg,
                     #e6e6e6,
@@ -103,11 +94,31 @@ nav {
                     #d3d3d3 10px,
                     #d4d4d4 20px);
     border: 2px dotted gray;
-    border-radius: 5px 5px 5px 5px;
     color: grey;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.hero {
+    max-width: 100%;
+}
+
+.summary {
+    position: absolute;
+    top: 5%;
+    left: 1.5%;
+    height: 90%;
+    background: rgba(255, 166, 0, 0.6);
+    border: 1px solid #000;
+    box-shadow: 0 0 10px #111;
+}
+
+.summary h2 {
+    opacity: 0.99;
+    color: black;
+    margin: 0px 5px 0px 5px;
+    border-bottom: 1px solid black;
 }
 
 footer {
