@@ -88,6 +88,11 @@ nav {
     display: block;
 }
 
+.navigation .currentpage {
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
 .mycontent {
     min-height: 100px;
     text-align: left;
