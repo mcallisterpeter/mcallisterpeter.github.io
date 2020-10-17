@@ -43,21 +43,12 @@
         margin: 0 auto;
     }
     
-    .subcontent {
-        position: relative;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        background: repeating-linear-gradient(
-                        45deg,
-                        #e6e6e6,
-                        #e6e6e6 10px,
-                        #d3d3d3 10px,
-                        #d4d4d4 20px);
-        border: 2px dotted gray;
-        color: black;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .mycontent h1 {
+        margin: 0px;
+    }
+
+    .mycontent h2 {
+        margin: 0px;
     }
 
     .summary {
@@ -76,6 +67,12 @@
     
     .sumtable {
         font-size: 12px;
+    }
+
+    .kiteimg {
+        width: 300px;
+        float: right;
+        margin: 10px;
     }
 
     footer {

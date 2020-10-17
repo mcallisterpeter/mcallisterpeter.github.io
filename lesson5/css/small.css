@@ -80,22 +80,13 @@ nav {
     min-height: 100px;
     text-align: left;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .subcontent {
     position: relative;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background: repeating-linear-gradient(
-                    45deg,
-                    #e6e6e6,
-                    #e6e6e6 10px,
-                    #d3d3d3 10px,
-                    #d4d4d4 20px);
-    border: 2px dotted gray;
-    color: black;
-    align-items: center;
-    justify-content: center;
+    margin: 0px 0px 15px 0px;
+    overflow: hidden;
 }
 
 .hero {
@@ -124,6 +115,41 @@ nav {
 .fcol {
     text-align: right;
     font-weight: bold;
+}
+
+.fortable {
+    width: 100%;
+}
+
+.fortable th {
+    background-color: orange;
+}
+
+.fortable td {
+    background-color: #fcc765;
+}
+
+.fortable, .fortable th, .fortable td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.fortable td, .fortable th {
+    text-align: center;
+}
+
+.wicon {
+    width: 50px;
+}
+
+.article {
+    margin: 10px 0px 0px 0px;
+    text-indent: 50px;
+}
+
+.kiteimg {
+    width: 100%;
 }
 
 footer {
