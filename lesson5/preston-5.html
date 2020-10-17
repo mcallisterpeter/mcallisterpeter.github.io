@@ -10,15 +10,15 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
     </head>
-    <body>
+    <body onload="showAnnounce();">
+        <div id="announce">
+            <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
         <header>
             <img class="myicon" src="images/weather-icon.png" alt="Site Logo">
             <section>
                 <h1 class="sitename">Weather & Beyond</h1>
                 <h2 class="sitemotto">Don't let the weather affect your schedule!</h2>
-            </section>
-            <section class="announce">
-                <p class="anntext">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
             </section>
         </header>
         <nav>
@@ -119,6 +119,9 @@
                 <p class="article">
                     We had a great day here in Preston last Friday.  The weather was a comfortable 68 degrees fahrenheit.  There was a light breeze.  At many of the local parks you could see many people flying kites.  It was an unusual site this late in the year.  Just evidence that Preston is the best city to live in.
                 </p>
+                <p class="article">
+                    We had a great day here in Preston last Friday.  The weather was a comfortable 68 degrees fahrenheit.  There was a light breeze.  At many of the local parks you could see many people flying kites.  It was an unusual site this late in the year.  Just evidence that Preston is the best city to live in.
+                </p>
             </div>
         </div>
         <div class="contact">
@@ -129,9 +132,9 @@
                 <p><i class="fa fa-phone"></i> (888)888-888</p>
                 <p><i class="fa fa-envelope"></i> myemail@email.com</p>
                 <div class="smedia">
-                    <img src="images/facebook.png" alt="Facebook Image">
-                    <img src="images/twitter.png" alt="Twitter Image">
-                    <img src="images/hangouts.png" alt="Hangouts Image">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook Image"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter Image"></a>
+                    <a href="https://hangouts.google.com/" target="_blank"><img src="images/hangouts.png" alt="Hangouts Image"></a>
                 </div>
             </div>
         </div>
@@ -147,5 +150,6 @@
         </footer>
         <script src="js/current_time.java"></script>
         <script src="js/ham_menu.java"></script>
+        <script src="js/announce.java"></script>
     </body>
 </html>
