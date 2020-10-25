@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
     </head>
-    <body onload="showAnnounce();">
+    <body onload="showAnnounce(); windChill();">
         <div id="announce">
             <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
         </div>
@@ -35,7 +35,7 @@
         <div class="mycontent">
             <h1>Preston Idaho</h1>
             <div class="subcontent">
-                <img class="hero" src="images/idaho_map.jpg" alt="Hero Image">
+                <img class="hero" src="images/wdd230_image_franklinOriginal.jpeg" alt="Hero Image">
                 <section class="summary">
                     <h2>Weather Summary</h2>
                     <table class="sumtable">
@@ -45,11 +45,7 @@
                         </tr>
                         <tr>
                             <td class="fcol">High: </td>
-                            <td>45°F</td>
-                        </tr>
-                        <tr>
-                            <td class="fcol">Low: </td>
-                            <td>25°F</td>
+                            <td><span id="tempF">45</span>°F</td>
                         </tr>
                         <tr>
                             <td class="fcol">Humidity: </td>
@@ -57,10 +53,17 @@
                         </tr>
                         <tr>
                             <td class="fcol">Wind Speed: </td>
-                            <td>2 mph</td>
+                            <td><span id="speed">2</span> mph</td>
+                        </tr>
+                        <tr>
+                            <td class="fcol">Wind Chill: </td>
+                            <td id="windChill"></td>
                         </tr>
                     </table>
                 </section>
+                <p class="lrg">LARGE</p>
+                <p class="mdm">MEDIUM</p>
+                <p class="sml">SMALL</p>
             </div>
             <h2>Five Day Forecast</h2>
             <div class="subcontent">
@@ -151,5 +154,6 @@
         <script src="js/current_time.js"></script>
         <script src="js/ham_menu.js"></script>
         <script src="js/announce.js"></script>
+        <script src="js/wind_chill.js"></script>
     </body>
 </html>

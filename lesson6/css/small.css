@@ -134,6 +134,33 @@ nav {
     font-weight: bold;
 }
 
+.lrg {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    margin: 0;
+    font-size: 50px;
+    color: pink;
+}
+
+.mdm {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    margin: 0;
+    font-size: 40px;
+    color: pink;
+}
+
+.sml {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    margin: 0;
+    font-size: 30px;
+    color: pink;
+}
+
 .fortable {
     width: 100%;
 }
