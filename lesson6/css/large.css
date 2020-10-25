@@ -30,4 +30,16 @@
         font-size: 17px;
     }
 
+    .lrg {
+        display: block;
+    }
+    
+    .mdm {
+        display: none;
+    }
+    
+    .sml {
+        display: none;
+    }
+
 }

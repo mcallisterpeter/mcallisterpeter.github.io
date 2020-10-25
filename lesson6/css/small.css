@@ -135,6 +135,7 @@ nav {
 }
 
 .lrg {
+    display: none;
     position: absolute;
     right: 5px;
     top: 5px;
@@ -144,6 +145,7 @@ nav {
 }
 
 .mdm {
+    display: none;
     position: absolute;
     right: 5px;
     top: 5px;

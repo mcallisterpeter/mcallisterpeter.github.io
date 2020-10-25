@@ -69,6 +69,18 @@
         font-size: 12px;
     }
 
+    .lrg {
+        display: none;
+    }
+    
+    .mdm {
+        display: block;
+    }
+    
+    .sml {
+        display: none;
+    }
+
     .kiteimg {
         width: 300px;
         float: right;
