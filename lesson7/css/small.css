@@ -2,12 +2,19 @@ h1 {
     text-align: center;
 }
 
+/*img[data-src] {
+    filter: blur(0.2em)!important;
+}*/
+
 img {
     padding: 3px;
     border: 1px solid black;
+    /*filter: blur(0px);
+    transition: filter 0.5s;*/
 }
 
 picture img {
     display: block;
     margin: 0px auto 10px auto;
 }
+

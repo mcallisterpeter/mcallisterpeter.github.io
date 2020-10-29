@@ -1,7 +1,7 @@
 const imagesToLoad = document.querySelectorAll("img[data-src]");
 
 const imgOptions = {
-    threshold: 0.9
+    threshold: 1
 }
 
 const loadImages = (image) => {
@@ -20,7 +20,6 @@ if ('IntersectionObserver' in window) {
             }
         });
     }, imgOptions);
-
     imagesToLoad.forEach((img) => {
         imgObserver.observe(img);
     });
