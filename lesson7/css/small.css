@@ -10,10 +10,10 @@ img {
 }
 
 picture img[data-src] {
-    filter: blur(0.2em);
+    filter: blur(5px);
 }
 
 picture img {
-    filter: blur(0em);
+    filter: blur(0px);
     transition: filter 0.5s;
 }
