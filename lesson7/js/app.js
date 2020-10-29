@@ -2,12 +2,12 @@ const imagesToLoad = document.querySelectorAll("img[data-src]");
 
 const imgOptions = {
     threshold: 1
-}
+};
 
 const loadImages = (image) => {
     image.setAttribute('src', image.getAttribute('data-src'));
     image.onload = () => {
-        image.removeAttribute('data=src');
+        image.removeAttribute('data-src');
     };
 };
 
