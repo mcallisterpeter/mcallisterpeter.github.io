@@ -1,20 +1,19 @@
-h1 {
-    text-align: center;
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
-
-/*img[data-src] {
-    filter: blur(0.2em)!important;
-}*/
 
 img {
     padding: 3px;
     border: 1px solid black;
-    /*filter: blur(0px);
-    transition: filter 0.5s;*/
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
 }
 
 picture img {
-    display: block;
-    margin: 0px auto 10px auto;
+    filter: blur(0em);
+    transition: filter 0.5s;
 }
-
