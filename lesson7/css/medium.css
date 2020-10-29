@@ -1,0 +1,108 @@
+@media only screen and (min-width: 520px) {
+
+    h1 {
+        font-size: 32px;
+    }
+    
+    h2 {
+        font-size: 16px;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .myicon {
+        width: 100px;
+        margin-right: 10px;
+    }
+    
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .mycontent {
+        max-width: 85%;
+        min-height: 100px;
+        text-align: left;
+        margin: 0 auto;
+    }
+    
+    .mycontent h1 {
+        margin: 0px;
+    }
+
+    .mycontent h2 {
+        margin: 0px;
+    }
+
+    .summary {
+        position: absolute;
+        top: 5%;
+        left: 1.5%;
+        box-shadow: 0 0 10px #111;
+        max-width: 200px;
+    }
+    
+    .summary h2 {
+        font-size: 16px;
+        margin: 0;
+        border-bottom: 1px solid black;
+    }
+    
+    .sumtable {
+        font-size: 12px;
+    }
+
+    .lrg {
+        display: none;
+    }
+    
+    .mdm {
+        display: block;
+    }
+    
+    .sml {
+        display: none;
+    }
+
+    .kiteimg {
+        width: 300px;
+        float: right;
+        margin: 10px;
+    }
+
+    .contact {
+        display: flex;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .cinfo {
+        margin-left: 3%;
+        min-width: 250px;
+    }
+
+    footer, .contact {
+        max-width: 90%;
+    }
+
+}
