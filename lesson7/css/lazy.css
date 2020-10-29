@@ -17,3 +17,7 @@ picture img {
     filter: blur(0px);
     transition: filter 0.5s;
 }
+
+footer {
+    margin-top: 10px;
+}
