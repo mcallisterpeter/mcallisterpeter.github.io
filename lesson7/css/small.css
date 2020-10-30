@@ -225,9 +225,10 @@ iframe {
     justify-items: center;
 }
 
-.w_img {
+.w_pic {
     padding: 3px;
     border: 1px solid black;
+    margin: 5px;
 }
 
 .w_pic .w_img[data-src] {
