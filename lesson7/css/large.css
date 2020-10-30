@@ -42,4 +42,8 @@
         display: none;
     }
 
+    .img_grd {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 }

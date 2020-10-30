@@ -219,6 +219,30 @@ iframe {
     margin-right: 15px;
 }
 
+.img_grd {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.w_img {
+    padding: 3px;
+    border: 1px solid black;
+}
+
+.w_pic .w_img[data-src] {
+    filter: blur(5px);
+}
+
+.w_pic .w_img {
+    filter: blur(0px);
+    transition: filter 0.5s;
+}
+
+footer {
+    margin-top: 10px;
+}
+
 footer {
     color: #000000;
 }
