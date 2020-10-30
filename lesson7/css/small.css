@@ -226,18 +226,25 @@ iframe {
 }
 
 .w_pic {
-    padding: 3px;
-    border: 1px solid black;
-    margin: 5px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px #111;
+    border-radius: 5px;
 }
 
 .w_pic .w_img[data-src] {
     filter: blur(5px);
+    border-radius: 5px 5px 0px 0px;
 }
 
 .w_pic .w_img {
     filter: blur(0px);
     transition: filter 0.5s;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.w_img_p {
+    font-size: 16px;
 }
 
 footer {
