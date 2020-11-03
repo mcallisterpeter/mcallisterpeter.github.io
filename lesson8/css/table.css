@@ -1,0 +1,13 @@
+body {
+    font-family: Ubuntu, sans-serif;
+    margin: 50px 50% 50px 50%;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table, caption, th, td {
+    border: 1px solid black;
+}
