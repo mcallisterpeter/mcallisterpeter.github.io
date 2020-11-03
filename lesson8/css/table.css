@@ -1,13 +1,45 @@
 body {
-    font-family: Ubuntu, sans-serif;
-    margin: 50px 50% 50px 50%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body table {
+    margin: 0 auto;
 }
 
 table {
+    box-shadow: 2px 2px 5px black;
+}
+
+thead {
+    font-size: 35px;
+}
+
+thead, tfoot{
+    background-color: #7fb9c2 ;
+}
+
+tbody {
+    font-size: 20px;
+}
+
+tbody th {
+    background-color: #628ca6 ;
+}
+
+th, td {
+    padding: 10px 15px 10px 15px;
     text-align: center;
-    border-collapse: collapse;
 }
 
 table, caption, th, td {
-    border: 1px solid black;
+    border-collapse: collapse;
+    border: 1px solid #e7f0ed;
+}
+
+tfoot {
+    font-size: 15px;
+}
+
+footer {
+    margin-top: 20px;
 }
