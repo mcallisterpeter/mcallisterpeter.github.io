@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+img {
+    padding: 3px;
+    border: 1px solid black;
+}
+
+picture img[data-src] {
+    filter: blur(5px);
+}
+
+picture img {
+    filter: blur(0px);
+    transition: filter 0.5s;
+}
+
+footer {
+    margin-top: 10px;
+}

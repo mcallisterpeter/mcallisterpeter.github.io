@@ -1,0 +1,285 @@
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 12px;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#announce {
+    display: none;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+
+#announce p {
+    margin: 0px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+header {
+    background-color: orange;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myicon {
+    width: 70px;
+    margin-right: 5px;
+}
+
+.sitename {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.sitemotto {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #fcc765;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.navigation a:hover {
+    font-weight: bold;
+    background-color: orange;
+}
+
+.responsive li {
+    display: block;
+}
+
+.navigation .currentpage {
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+.mycontent {
+    min-height: 100px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.subcontent {
+    position: relative;
+    margin: 0px 0px 15px 0px;
+    overflow: hidden;
+}
+
+.hero {
+    max-width: 100%;
+}
+
+.summary {
+    background: rgba(255, 229, 173, 0.8);
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.summary h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+.sumtable {
+    table-layout: fixed;
+    width: 100%;
+    font-size: 17px;
+}
+
+.fcol {
+    text-align: right;
+    font-weight: bold;
+}
+
+.lrg {
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    margin: 0;
+    font-size: 50px;
+    color: pink;
+}
+
+.mdm {
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    margin: 0;
+    font-size: 40px;
+    color: pink;
+}
+
+.sml {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    margin: 0;
+    font-size: 30px;
+    color: pink;
+}
+
+.fortable {
+    width: 100%;
+}
+
+.fortable th {
+    background-color: orange;
+}
+
+.fortable td {
+    background-color: #fcc765;
+}
+
+.fortable, .fortable th, .fortable td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.fortable td, .fortable th {
+    text-align: center;
+}
+
+.wicon {
+    width: 50px;
+}
+
+.article {
+    margin: 10px 0px 0px 0px;
+    text-indent: 50px;
+}
+
+.kiteimg {
+    width: 100%;
+}
+
+.contact {
+    background-color: #fcc765;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.cinfo {
+    margin-left: 50px;
+}
+
+.smedia img {
+    max-width: 40px;
+    margin-right: 15px;
+}
+
+.img_grd {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.w_pic {
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px #111;
+    border-radius: 5px;
+}
+
+.w_pic .w_img[data-src] {
+    filter: blur(5px);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.w_pic .w_img {
+    filter: blur(0px);
+    transition: filter 0.5s;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.w_img_p {
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+footer {
+    color: #000000;
+}
+
+.byu {
+    color: blue;
+}
+
+.navback:hover, .byu:hover {
+    color: lightblue;
+}
+
+footer, .byu {
+    background-color: #fafad2;
+    font-size: 12px;
+}
+
+header, nav, footer{
+    margin: 0 auto;
+    text-align: center;
+}
+
+header, footer, .contact {
+    padding: 12px;
+}
+
+.navback {
+    color: blue;
+    font-size: 12px;
+    display: block;
+    text-align: left;
+}

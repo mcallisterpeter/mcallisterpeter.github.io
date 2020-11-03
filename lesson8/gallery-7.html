@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device width, initial-scale=1">
+        <meta name="description" content="The Preston Idaho page is to provide current weather and contact informtion as well as articles on recent events in the area.">
+        <title>Weather & Beyond | Preston</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body onload="showAnnounce(); windChill();">
+        <div id="announce">
+            <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+        <header>
+            <img class="myicon" src="images/weather-icon.png" alt="Site Logo">
+            <section>
+                <h1 class="sitename">Weather & Beyond</h1>
+                <h2 class="sitemotto">Don't let the weather affect your schedule!</h2>
+            </section>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">☰ Menu</a></li>
+		        <li><a href="#">Home</a></li>
+		        <li><a href="https://mcallisterpeter.github.io/lesson7/preston-7.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a class="currentpage" href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="mycontent">
+            <h1>Weather Gallery</h1>
+            <div class="img_grd">
+                <picture class="w_pic">
+                    <img class="w_img" src="images/placeholder_h.jpg" data-src="images/weather_1.jpg" alt="islands">
+                    <p class="w_img_p">Sunny and Clear</p>
+                </picture>
+                <picture class="w_pic">
+                    <img class="w_img" src="images/placeholder_h.jpg" data-src="images/weather_2.jpg" alt="islands">
+                    <p class="w_img_p">Snow Storms</p>
+                </picture>
+                <picture class="w_pic">
+                    <img class="w_img" src="images/placeholder_h.jpg" data-src="images/weather_3.jpg" alt="islands">
+                    <p class="w_img_p">Heavy Winds Coming</p>
+                </picture>
+                <picture class="w_pic">
+                    <img class="w_img" src="images/placeholder_h.jpg" data-src="images/weather_4.jpg" alt="islands">
+                    <p class="w_img_p">Chance of Tornados</p>
+                </picture>
+                <picture class="w_pic">
+                    <img class="w_img" src="images/placeholder_h.jpg" data-src="images/weather_5.jpg" alt="islands">
+                    <p class="w_img_p">Chance of Snow</p>
+                    </picture>
+                <picture class="w_pic">
+                    <img class="w_img" src="images/placeholder_h.jpg" data-src="images/weather_6.jpg" alt="islands">
+                    <p class="w_img_p">Partly Cloudy</p>
+                </picture>
+                <picture class="w_pic">
+                    <img class="w_img" src="images/placeholder_h.jpg" data-src="images/weather_7.jpg" alt="islands">
+                    <p class="w_img_p">Raining.  Bring Your Umbrella</p>
+                </picture>
+                <picture class="w_pic">
+                    <img class="w_img" src="images/placeholder_h.jpg" data-src="images/weather_8.jpg" alt="islands">
+                    <p class="w_img_p">Light Fog</p>
+                </picture>
+                <picture class="w_pic">
+                    <img class="w_img" src="images/placeholder_h.jpg" data-src="images/weather_9.jpg" alt="islands">
+                    <p class="w_img_p">Thunder Storms</p>
+                </picture>
+            </div>
+        </div>
+        <footer>
+            <p>
+                © 2020 | Peter McAllister | Utah | 
+                <a href="https://www.byui.edu/online" class="byu">BYUI Online Learning</a>
+            </p>
+            <p>
+                Current Date: <span id="currentdate"></span>
+            </p>
+            <a href="https://mcallisterpeter.github.io" class="navback">&lt;&lt; Back to Assignment Portal</a>
+        </footer>
+        <script src="js/current_time.js"></script>
+        <script src="js/ham_menu.js"></script>
+        <script src="js/announce.js"></script>
+        <script src="js/wind_chill.js"></script>
+        <script src="js/lazy_load.js" defer></script>
+    </body>
+</html>
