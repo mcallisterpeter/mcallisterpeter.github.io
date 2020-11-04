@@ -24,6 +24,7 @@ tbody {
 
 tbody th {
     background-color: #628ca6 ;
+    color: white;
 }
 
 th, td {
@@ -33,7 +34,20 @@ th, td {
 
 table, caption, th, td {
     border-collapse: collapse;
-    border: 1px solid #e7f0ed;
+    border: 2px solid lightgrey;
+}
+
+.oddrow {
+    background-color: #e7f0ed;
+}
+
+.evnrow {
+    background-color: #e7ffed;    
+}
+
+.novgoal {
+    background-color: #628ca6;
+    color: white;
 }
 
 tfoot {
