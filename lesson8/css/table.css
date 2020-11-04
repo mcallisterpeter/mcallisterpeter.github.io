@@ -50,6 +50,10 @@ table, caption, th, td {
     color: white;
 }
 
+.bfdy {
+    font-style: italic;
+}
+
 tfoot {
     font-size: 15px;
 }
