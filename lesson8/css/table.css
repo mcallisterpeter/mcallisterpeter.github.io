@@ -14,7 +14,7 @@ thead {
     font-size: 35px;
 }
 
-thead, tfoot{
+thead th, tfoot th{
     background-color: #7fb9c2 ;
 }
 
@@ -37,11 +37,11 @@ table, caption, th, td {
     border: 2px solid lightgrey;
 }
 
-.oddrow {
+tr:nth-child(even) {
     background-color: #e7f0ed;
 }
 
-.evnrow {
+tr:nth-child(odd) {
     background-color: #e7ffed;    
 }
 
