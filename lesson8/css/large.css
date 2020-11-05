@@ -46,4 +46,12 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .w_pic {
+        box-shadow: 0 0 5px #111;
+    }
+
+    .w_pic:hover {
+        box-shadow: 0 0 20px #111;
+    }
+
 }
