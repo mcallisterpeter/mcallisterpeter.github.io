@@ -100,8 +100,53 @@ nav {
     padding: 10px;
 }
 
-.sccontent {
+.inputarea {
+    align-content: center;
+    max-width: 700px;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+    margin: 15px auto;
+    border: solid #fcc765 2px;
+    border-radius: 5px;
     display: grid;
+    font-weight: bold;
+}
+
+.inputarea * {
+    margin: 5px;
+}
+
+.inputarea :nth-child(1) {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.inputarea:nth-child(1) input {
+    padding: 5px;
+    border-color: #fcc765;
+}
+
+.inputarea:nth-child(2) input {
+    border-color: #fcc765;
+}
+
+.inputarea:nth-child(2) :nth-child(10), :nth-child(9), :nth-child(8) {
+    margin-top: 0;
+}
+
+.inputarea:nth-child(2) :nth-child(11) {
+    display: grid;
+}
+
+.inputarea:nth-child(2) :nth-child(11) :nth-child(1) {
+    min-height: 100px;
+    margin: 0;
+}
+
+.inputarea:nth-child(2) :nth-child(12) {
+    margin-top: 10px;
+    justify-self: center;
+    max-width: 100px;
 }
 
 .subcontent {
