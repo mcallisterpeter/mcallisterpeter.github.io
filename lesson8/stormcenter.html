@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
     </head>
-    <body onload="showAnnounce(); windChill(); selectResponse()">
+    <body onload="showAnnounce(); selectResponse();">
         <div id="announce">
             <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
         </div>
@@ -91,13 +91,15 @@
 					<option value="Fish Haven">Fish Haven</option>
                 </select>
             </label>
-
-            <label for="name">User In-Danger Level:</label>
-            <input type="text" id="name" name="name" required minlength="5" pattern="[A-Za-z]" size="10">
-            <label for="name">Additional Informations or Comments:</label>
-            <input type="text" id="name" name="name" required minlength="5" pattern="[A-Za-z]" size="10">
-            <label for="name">Form Submission Button:</label>
-            <input type="text" id="name" name="name" required minlength="5" pattern="[A-Za-z]" size="10">
+            <legend>User in-Danger Level: </legend>
+			<label for="yes"><input type="radio" id="yes" name="danger" value="0" checked>Yes</label>
+			<label for="maybe"><input type="radio" id="maybe" name="danger" value="1">Maybe</label>
+            <label for="no"><input type="radio" id="no" name="danger" value="2">No</label>
+            <label for="comments">
+                Additional Informations or Comments:
+                <textarea name="comments"></textarea>
+            </label>
+            <input type="submit">
         </div>
         <footer>
             <p>
@@ -112,8 +114,6 @@
         <script src="js/current_time.js"></script>
         <script src="js/ham_menu.js"></script>
         <script src="js/announce.js"></script>
-        <script src="js/wind_chill.js"></script>
-        <script src="js/lazy_load.js" defer></script>
         <script src="js/myrating.js"></script>
         <script src="js/selection.js"></script>
     </body>
