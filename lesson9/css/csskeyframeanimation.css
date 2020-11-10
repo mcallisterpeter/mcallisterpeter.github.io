@@ -1,0 +1,170 @@
+body {
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.mysections {
+    border: solid grey 1px;
+    padding: 15px 50px 50px 50px;
+    min-width: 800px;
+    justify-content: center;
+    margin: 25px;
+}
+
+
+/***EXAMPLE #1***/
+.mysection1 {
+    margin: 0 auto;
+    width: 700px;
+    background-color: lightgray;
+    border: solid black 1px;
+}
+
+.block1 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    animation: mymove1 5s infinite;
+}
+
+@keyframes mymove1 {
+    0% {left: 0px;}
+    50% {left: 600px;}
+    100% {left: 0px;}
+}
+
+
+/***EXAMPLE #2***/
+.mysection2 {
+    margin: 0 auto;
+    width: 100px;
+    height: 700px;
+    background-color: lightgray;
+    border: solid black 1px;
+}
+
+.block2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    animation: mymove2 5s infinite;
+}
+
+@keyframes mymove2 {
+    0% {top: 0px;}
+    50% {top: 600px;}
+    100% {top: 0px;}
+}
+
+
+/***EXAMPLE #3***/
+.mysection3 {
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+    background-color: lightgray;
+    border: solid black 1px;
+}
+
+.block3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    animation: mymove3 5s infinite;
+}
+
+@keyframes mymove3 {
+    0% {top: 0px; left: 0px;}
+    25% {top: 600px; left: 0px;}
+    50% {top: 600px; left: 600px;}
+    75% {top: 0px; left: 600px;}
+    100% {top: 0px; left: 0px;}
+}
+
+
+/***EXAMPLE #4***/
+.mysection4 {
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+    background-color: lightgray;
+    border: solid black 1px;
+}
+
+.block4 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    animation: mymove4 5s infinite;
+}
+
+@keyframes mymove4 {
+    0% {top: 0px; left: 0px;}
+    25% {top: 600px; left: 0px; background-color: red;}
+    50% {top: 600px; left: 600px; background-color: yellow;}
+    75% {top: 0px; left: 600px; background-color: blue;}
+    100% {top: 0px; left: 0px; background-color: green;}
+}
+
+
+/***EXAMPLE #5***/
+.mysection5 {
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+    background-color: lightgray;
+    border: solid black 1px;
+}
+
+.block5 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: mymove5 5s infinite;
+}
+
+@keyframes mymove5 {
+    0% {top: 300px; left: 300px; width: 100px; height: 100px;}
+    25% {top: 0px; left: 0px; width: 700px; height: 700px;}
+    50% {top: 300px; left: 200px; width: 300px; height: 100px; background-color: blue;}
+    75% {top: 0px; left: 0px; width: 700px; height: 700px;}
+    100% {top: 300px; left: 300px; width: 100px; height: 100px;}
+}
+
+
+/***EXAMPLE #6***/
+.mysection6 {
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+    background-color: lightgray;
+    border: solid black 1px;
+}
+
+.block6 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: mymove6 5s infinite;
+}
+
+@keyframes mymove6 {
+    0% {top: 300px; left: 300px; width: 100px; height: 100px;}
+    25% {top: 0px; left: 0px; width: 700px; height: 700px;}
+    50% {top: 300px; left: 200px; width: 300px; height: 100px; background-color: blue;}
+    75% {top: 0px; left: 0px; width: 700px; height: 700px;}
+    100% {top: 300px; left: 300px; width: 100px; height: 100px;}
+}
