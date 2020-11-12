@@ -2,6 +2,7 @@
 body {
     font-family: 'Lobster', cursive;
     text-align: center;
+    max-width: 1887px;
 }
 
 h1 {
