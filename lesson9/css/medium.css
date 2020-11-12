@@ -51,6 +51,32 @@
         margin: 0px;
     }
 
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 5px;
+    }
+
+    .townsect {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 10px;
+        border: 1px solid black;
+        padding: 15px;
+        background-color: lightgoldenrodyellow;
+        border-radius: 5px;
+    }
+
+    .townsect:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .towninfo {
+        width: 100%;
+        text-align: center;
+    }
+
     .summary {
         position: absolute;
         top: 5%;
