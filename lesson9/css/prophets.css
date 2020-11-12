@@ -1,6 +1,23 @@
 
+body {
+    font-family: 'Lobster', cursive;
+}
+
 h1 {
     text-align: center;
+    color: darkorange;
+}
+
+h2 {
+    color: darkorange;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    margin-top: 10px;
 }
 
 .cards {
@@ -11,8 +28,8 @@ h1 {
 section {
     padding: 15px 0px 15px 0px;
     margin: 3px;
-    border: 1px solid black;
-    background-color: orange;
+    border: 1px solid darkorange;
+    background-color: lightgoldenrodyellow;
     display: grid;
     justify-content: center;
     text-align: center;
