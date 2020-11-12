@@ -5,11 +5,11 @@ body {
 
 h1 {
     text-align: center;
-    color: darkorange;
+    color: #754100;
 }
 
 h2 {
-    color: darkorange;
+    color: #754100;
 }
 
 p {
@@ -30,7 +30,7 @@ img {
 section {
     padding: 15px 0px 15px 0px;
     margin: 3px;
-    border: 1px solid darkorange;
+    border: 1px solid #754100;
     background-color: lightgoldenrodyellow;
     display: grid;
     justify-content: center;
