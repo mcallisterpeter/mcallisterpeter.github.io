@@ -16,10 +16,13 @@ fetch(requestURL)
 
         h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
         card.appendChild(h2);
+
         p.textContent = 'Date of Birth: ' + prophets[i].birthdate;
         card.appendChild(p);
+
         p2.textContent = 'Birthplace: ' + prophets[i].birthplace;
         card.appendChild(p2);
+        
         image.setAttribute('src', prophets[i].imageurl);
         image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + prophets[i].order)
         card.appendChild(image);
