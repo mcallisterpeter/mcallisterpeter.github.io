@@ -24,7 +24,7 @@ fetch(requestURL)
         card.appendChild(p2);
         
         image.setAttribute('src', prophets[i].imageurl);
-        image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + prophets[i].order)
+        image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + prophets[i].order);
         card.appendChild(image);
 
         document.querySelector('div.cards').appendChild(card);
