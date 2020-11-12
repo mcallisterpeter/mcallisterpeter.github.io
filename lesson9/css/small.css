@@ -116,6 +116,18 @@ nav {
     border-radius: 5px;
 }
 
+.towninfo h2 {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.towninfo :nth-child(2) {
+    margin-top: 0px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px;
+}
+
 .inputarea {
     align-content: center;
     max-width: 700px;
