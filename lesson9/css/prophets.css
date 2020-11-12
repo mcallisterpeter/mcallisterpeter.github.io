@@ -1,10 +1,10 @@
 
 body {
     font-family: 'Lobster', cursive;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
     color: #754100;
 }
 
@@ -35,4 +35,8 @@ section {
     display: grid;
     justify-content: center;
     text-align: center;
+}
+
+footer a {
+    font-family: sans-serif;
 }
