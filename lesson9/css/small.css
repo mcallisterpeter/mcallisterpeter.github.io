@@ -128,8 +128,9 @@ nav {
     font-size: 12px;
 }
 
-.townsect .townimg {
+.townimg {
     width: 100%;
+    box-shadow: 0 0 10px black;
 }
 
 .inputarea {
