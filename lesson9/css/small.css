@@ -109,7 +109,7 @@ nav {
     justify-content: center;
     text-align: center;
     border: 1px solid #754100;
-    width: 400px;
+    width: 100%;
     padding: 10px;
     margin: 10px 0px 10px 0px;
     background-color: lightgoldenrodyellow;
@@ -127,6 +127,10 @@ nav {
     font-weight: bold;
     font-style: italic;
     font-size: 12px;
+}
+
+.townimg {
+    width: 100%;
 }
 
 .inputarea {

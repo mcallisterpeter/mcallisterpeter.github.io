@@ -60,6 +60,7 @@
         display: flex;
         flex-direction: row;
         width: 100%;
+        min-width: 545px;
         margin: 10px;
         align-items: center;
     }
@@ -71,6 +72,7 @@
     .towninfo {
         width: 100%;
         text-align: center;
+        padding: 10px;
     }
 
     .summary {
