@@ -108,11 +108,12 @@ nav {
     display: grid;
     justify-content: center;
     text-align: center;
-    border: 1px solid #754100;
+    /*border: 1px solid #754100;*/
     padding: 10px;
     margin: 10px 0px 10px 0px;
     background-color: lightgoldenrodyellow;
     border-radius: 5px;
+    box-shadow: 0 0 10px black;
 }
 
 .towninfo h2 {
@@ -130,7 +131,8 @@ nav {
 
 .townimg {
     width: 100%;
-    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
 .inputarea {
