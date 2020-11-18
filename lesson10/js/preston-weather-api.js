@@ -33,6 +33,12 @@ fetch(curApi)
         if (myTime == '18:00:00' && x <= 5) {
             document.getElementById('myDay' + x).textContent = myDay;
             document.getElementById('forTemp' + x).textContent = jsObject.list[i].main.temp;
+
+            const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '.png';
+            const desc = jsObject.list[i].weather[0].description;
+            document.getElementById('icon' + x).setAttribute('src', imagesrc);
+            document.getElementById('icon' + x).setAttribute('alt', desc);
+
             x++
         }
     }
