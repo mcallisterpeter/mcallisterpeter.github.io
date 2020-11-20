@@ -252,11 +252,11 @@ nav {
 }
 
 .fortable th {
-    background-color: orange;
+    background-color: #fcc765;
 }
 
 .fortable td {
-    background-color: #fcc765;
+    background-color: lightgoldenrodyellow;
 }
 
 .fortable, .fortable th, .fortable td {
