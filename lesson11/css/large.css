@@ -1,0 +1,71 @@
+@media only screen and (min-width: 1000px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .myicon {
+        width: 130px;
+        margin-right: 15px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(440px,1fr));
+        margin: 5px;
+    }
+
+    .townsect {
+        display: grid;
+        width: 400px;
+        min-width: 400px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .anntext {
+        display: block;
+        font-size: 12px;
+    }
+
+    .summary {
+        max-width: 300px;
+    }
+
+    .summary h2 {
+        font-size: 24px;
+    }
+    
+    .sumtable {
+        font-size: 17px;
+    }
+
+    .lrg {
+        display: block;
+    }
+    
+    .mdm {
+        display: none;
+    }
+    
+    .sml {
+        display: none;
+    }
+
+    .img_grd {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .w_pic {
+        box-shadow: 0 0 5px #111;
+    }
+
+    .w_pic:hover {
+        box-shadow: 0 0 20px #111;
+    }
+
+}
