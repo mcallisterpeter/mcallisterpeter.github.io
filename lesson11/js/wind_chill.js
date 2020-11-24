@@ -10,5 +10,9 @@ function windChill() {
 		var multiplier = Math.pow(10, digits);
 		var windChillFactorRounded = Math.round(windChillFactor * multiplier ) / multiplier;
 
+		if (tempF <= 50 && speed > 3) {
 		document.getElementById("windChill").innerHTML = windChillFactorRounded + "°F";
+		} else {
+		document.getElementById("windChill").innerHTML = "N/A";
+		}
 	}

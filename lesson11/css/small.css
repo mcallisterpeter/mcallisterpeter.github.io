@@ -190,7 +190,7 @@ nav {
     overflow: hidden;
 }
 
-.hero {
+.hero * {
     max-width: 100%;
 }
 
