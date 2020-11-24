@@ -44,18 +44,6 @@
         font-size: 17px;
     }
 
-    .lrg {
-        display: block;
-    }
-    
-    .mdm {
-        display: none;
-    }
-    
-    .sml {
-        display: none;
-    }
-
     .img_grd {
         grid-template-columns: 1fr 1fr 1fr;
     }

@@ -218,35 +218,6 @@ nav {
     font-weight: bold;
 }
 
-.lrg {
-    display: none;
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    margin: 0;
-    font-size: 50px;
-    color: pink;
-}
-
-.mdm {
-    display: none;
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    margin: 0;
-    font-size: 40px;
-    color: pink;
-}
-
-.sml {
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    margin: 0;
-    font-size: 30px;
-    color: pink;
-}
-
 .fortable {
     width: 100%;
 }
