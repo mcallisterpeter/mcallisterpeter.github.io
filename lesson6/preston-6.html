@@ -35,7 +35,12 @@
         <div class="mycontent">
             <h1>Preston Idaho</h1>
             <div class="subcontent">
-                <img class="hero" src="images/wdd230_image_franklinOriginal.jpeg" alt="Hero Image">
+                <picture class="hero">
+                    <source media="(max-width: 519px)" srcset="images/wdd230_image_franklinSml.jpg">
+                    <source media="(max-width: 999px)" srcset="images/wdd230_image_franklinMed.jpg">
+                    <source media="(min-width: 1000px)" srcset="images/wdd230_image_franklinLrg.jpg">
+                    <img src="images/wdd230_image_franklinOriginal.jpeg" alt="Hero Image">
+                </picture>
                 <section class="summary">
                     <h2>Weather Summary</h2>
                     <table class="sumtable">
@@ -53,7 +58,7 @@
                         </tr>
                         <tr>
                             <td class="fcol">Wind Speed: </td>
-                            <td><span id="speed">2</span> mph</td>
+                            <td><span id="speed">4</span> mph</td>
                         </tr>
                         <tr>
                             <td class="fcol">Wind Chill: </td>
@@ -61,9 +66,6 @@
                         </tr>
                     </table>
                 </section>
-                <p class="lrg">LARGE</p>
-                <p class="mdm">MEDIUM</p>
-                <p class="sml">SMALL</p>
             </div>
             <h2>Five Day Forecast</h2>
             <div class="subcontent">
