@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device width, initial-scale=1">
+        <meta name="description" content="The Preston Idaho page is to provide current weather and contact informtion as well as articles on recent events in the area.">
+        <title>Weather & Beyond | Preston</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body onload="showAnnounce(); windChill();">
+        <div id="announce">
+            <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+        <header>
+            <img class="myicon" src="images/weather-icon.png" alt="Site Logo">
+            <section>
+                <h1 class="sitename">Weather & Beyond</h1>
+                <h2 class="sitemotto">Don't let the weather affect your schedule!</h2>
+            </section>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">☰ Menu</a></li>
+		        <li><a href="https://mcallisterpeter.github.io/lesson11/index.html">Home</a></li>
+		        <li><a href="https://mcallisterpeter.github.io/lesson11/preston.html">Preston</a></li>
+                <li><a class="currentpage" href="#">Soda Springs</a></li>
+                <li><a href="https://mcallisterpeter.github.io/lesson11/fish-haven.html">Fish Haven</a></li>
+                <li><a href="https://mcallisterpeter.github.io/lesson11/stormcenter.html">Storm Center</a></li>
+                <li><a href="https://mcallisterpeter.github.io/lesson11/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="mycontent">
+            <h1>Preston Idaho</h1>
+            <div class="subcontent">
+                <picture class="hero">
+                    <source media="(max-width: 519px)" srcset="images/idaho_map_sml.jpg">
+                    <source media="(max-width: 999px)" srcset="images/idaho_map_mdm.jpg">
+                    <source media="(min-width: 1000px)" srcset="images/idaho_map_lrg.jpg">
+                    <img src="images/idaho_map.jpg" alt="Hero Image">
+                </picture>
+                <section class="summary">
+                    <h2>Weather Summary</h2>
+                    <table class="sumtable">
+                        <tr>
+                            <td class="fcol">Currently: </td>
+                            <td><span id="currently"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="fcol">Temperature: </td>
+                            <td><span id="tempF"></span>°F</td>
+                        </tr>
+                        <tr>
+                            <td class="fcol">Humidity: </td>
+                            <td><span id="humid"></span>%</td>
+                        </tr>
+                        <tr>
+                            <td class="fcol">Wind Speed: </td>
+                            <td><span id="speed"></span> mph</td>
+                        </tr>
+                        <tr>
+                            <td class="fcol">Wind Chill: </td>
+                            <td id="windChill"></td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+            <h2>Five Day Forecast</h2>
+            <div class="subcontent">
+                <table class="fortable">
+                    <thead>
+                        <tr>
+                            <th><span id="myDay1"></span></th>
+                            <th><span id="myDay2"></span></th>
+                            <th><span id="myDay3"></span></th>
+                            <th><span id="myDay4"></span></th>
+                            <th><span id="myDay5"></span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span id="forTemp1"></span>°F<br>
+                                <img src="" alt="" id="icon1">
+                            </td>
+                            <td>
+                                <span id="forTemp2"></span>°F<br>
+                                <img src="" alt="" id="icon2">
+                            </td>
+                            <td>
+                                <span id="forTemp3"></span>°F<br>
+                                <img src="" alt="" id="icon3">
+                            </td>
+                            <td>
+                                <span id="forTemp4"></span>°F<br>
+                                <img src="" alt="" id="icon4">
+                            </td>
+                            <td>
+                                <span id="forTemp5"></span>°F<br>
+                                <img src="" alt="" id="icon5">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="subcontent">
+                <img class="kiteimg" src="images/kite.jpg" alt="Image of Kid Flying Kite">
+                <h2>A Beautiful Day in Preston</h2>
+                <p class="article">
+                    We had a great day here in Preston last Friday.  The weather was a comfortable 68 degrees fahrenheit.  There was a light breeze.  At many of the local parks you could see many people flying kites.  It was an unusual site this late in the year.  Just evidence that Preston is the best city to live in.
+                </p>
+                <p class="article">
+                    We had a great day here in Preston last Friday.  The weather was a comfortable 68 degrees fahrenheit.  There was a light breeze.  At many of the local parks you could see many people flying kites.  It was an unusual site this late in the year.  Just evidence that Preston is the best city to live in.
+                </p>
+                <p class="article">
+                    We had a great day here in Preston last Friday.  The weather was a comfortable 68 degrees fahrenheit.  There was a light breeze.  At many of the local parks you could see many people flying kites.  It was an unusual site this late in the year.  Just evidence that Preston is the best city to live in.
+                </p>
+            </div>
+        </div>
+        <div class="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14219.249043049578!2d-111.87596475517552!3d42.09484770854314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1602904841718!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div class="cinfo">
+                <h2>Contact Information</h2>
+                <p><span>&#10148;</span> 123 S 456 E Preston, Idaho</p>
+                <p><span>&#9742;</span> (888)888-888</p>
+                <p><span>&#9993;</span> myemail@email.com</p>
+                <div class="smedia">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook Image"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter Image"></a>
+                    <a href="https://hangouts.google.com/" target="_blank"><img src="images/hangouts.png" alt="Hangouts Image"></a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>
+                © 2020 | Peter McAllister | Utah | 
+                <a href="https://www.byui.edu/online" class="byu">BYUI Online Learning</a>
+            </p>
+            <p>
+                Weather Data Provided By: 
+                <a href="https://openweathermap.org/">OpenWeatherMap</a>
+            </p>
+            <p>
+                Current Date: <span id="currentdate"></span>
+            </p>
+            <a href="https://mcallisterpeter.github.io" class="navback">&lt;&lt; Back to Assignment Portal</a>
+        </footer>
+        <script src="js/current_time.js"></script>
+        <script src="js/ham_menu.js"></script>
+        <script src="js/announce.js"></script>
+        <script src="js/wind_chill.js"></script>
+        <script src="js/preston-weather-api.js"></script>
+    </body>
+</html>
