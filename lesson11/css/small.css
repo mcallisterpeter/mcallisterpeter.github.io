@@ -303,6 +303,10 @@ iframe {
     border-radius: 5px 5px 0px 0px;
 }
 
+.w_img {
+    width: 100%;
+}
+
 .w_img_p {
     font-size: 16px;
 }
