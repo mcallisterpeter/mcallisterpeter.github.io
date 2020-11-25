@@ -4,7 +4,11 @@ h1 {
 }
 
 h2 {
-    font-size: 12px;
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
 }
 
 body {
@@ -46,6 +50,7 @@ header {
 }
 
 .sitemotto {
+    font-size: 12px;
     text-align: left;
     margin: 0;
     padding: 0;

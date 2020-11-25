@@ -5,13 +5,17 @@
     }
     
     h2 {
-        font-size: 16px;
+        font-size: 20px;
     }
     
     header {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .sitemotto {
+        font-size: 20dpx;
     }
     
     .myicon {
