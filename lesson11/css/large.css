@@ -15,16 +15,19 @@
 
     .cards {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(440px,1fr));
-        margin: 5px;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .townsect {
-        display: grid;
-        width: 400px;
-        min-width: 400px;
+        display: block;
         justify-content: center;
         text-align: center;
+        margin: 10px;
+        width: auto;
+    }
+
+    .towninfo, .townimg {
+        width: 100%;
     }
 
     .anntext {
