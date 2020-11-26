@@ -248,6 +248,14 @@ nav {
     width: 50px;
 }
 
+.events {
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: lightgoldenrodyellow;
+}
+
 .article {
     margin: 10px 0px 0px 0px;
     text-indent: 50px;
