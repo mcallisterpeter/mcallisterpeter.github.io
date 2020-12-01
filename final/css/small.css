@@ -24,19 +24,44 @@ body {
 }
 
 header {
-    background-color: lightcoral;
+    background-color: rgb(88, 88, 88);
+    color: white;
+    align-items: center;
+    /*justify-content: center;*/
     margin-bottom: 15px;
+    display: flex;
+}
+
+.logo {
+    max-height: 48px;
+    background-color: lightgray;
+    border: 1px solid black;
+    margin-right: 5px;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
 }
 
 main {
     min-height: 1000px;
     max-width: 1300px;
-    background-color: lightblue;
+    background-color: red;
     margin: 0 auto;
 }
 
 footer {
     margin-top: 15px;
     min-height: 100px;
-    background-color: lightcoral;
+    background-color: gold;
 }
