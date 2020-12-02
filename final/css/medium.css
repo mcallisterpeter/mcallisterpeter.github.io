@@ -1,4 +1,4 @@
-@media only screen and (min-width: 520px) {
+@media only screen and (min-width: 500px) {
 
     h1 {
         font-size: 32px;
@@ -10,6 +10,31 @@
 
     p {
         font-size: 15px;
+    }
+
+    .logo {
+        max-height: 38px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
     }
 
 }

@@ -24,18 +24,25 @@ body {
 }
 
 header {
-    background-color: rgb(88, 88, 88);
-    color: white;
     align-items: center;
-    /*justify-content: center;*/
     margin-bottom: 15px;
+    padding: 15px;
+}
+
+.company_link {
+    text-decoration: none;
+    color: black;
+}
+
+.company {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .logo {
-    max-height: 48px;
-    background-color: lightgray;
-    border: 1px solid black;
+    max-height: 29px;
     margin-right: 5px;
 }
 
@@ -44,24 +51,50 @@ nav {
 }
 
 .navigation {
-    display: flex;
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
 }
 
 .navigation a {
+    display: block;
+    padding: 5px;
+    text-align: center;
     text-decoration: none;
-    color: white;
+    color: black;
+}
+
+.navigation a:hover {
+    font-weight: bold;
+}
+
+.responsive li {
+    display: block;
+}
+
+.navigation .currentpage {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 main {
     min-height: 1000px;
     max-width: 1300px;
-    background-color: red;
     margin: 0 auto;
+    border: 5px solid red;
 }
 
 footer {
     margin-top: 15px;
     min-height: 100px;
-    background-color: gold;
+    background-color: rgb(2, 111, 75);
+    color: white;
 }
