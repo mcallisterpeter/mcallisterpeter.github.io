@@ -53,7 +53,7 @@ header {
 nav {
     margin: 0 auto;
     position: absolute;
-    top: 10px;
+    top: 4px;
     left: 0px;
 }
 
@@ -65,6 +65,7 @@ nav {
 
 .navigation li:first-child {
     display: block;
+    font-size: 30px;
 }
 
 .navigation li:nth-child(n + 2) {
