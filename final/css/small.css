@@ -29,8 +29,8 @@ body {
 
 header {
     align-items: center;
-    margin-bottom: 15px;
-    padding: 15px;
+    /*margin-bottom: 15px;*/
+    padding: 5px 10px 5px 10px;
 }
 
 .company_link {
@@ -93,6 +93,10 @@ nav {
     background: linear-gradient(110deg, #026f4b 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, white 66%, #ed1c24 66%);*/
     border-radius: 15px 15px;
     color: white;
+}
+
+.hero img {
+    max-width: 100%;
 }
 
 main {
