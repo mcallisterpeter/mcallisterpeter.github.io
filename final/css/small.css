@@ -13,6 +13,10 @@ h2 {
     padding: 0px;
 }
 
+h3 {
+    font-size: 14px;
+}
+
 p {
     font-size: 14px;
     margin: 0px;
@@ -92,16 +96,41 @@ nav {
 }
 
 main {
-    min-height: 1000px;
     max-width: 1300px;
     margin: 0 auto;
     border: 1px solid red;
+    padding: 1%;
 }
 
 .mycontent {
     margin-left: 5px;
     margin-right: 5px;
     border: 1px solid black;
+}
+
+.smedia {
+    padding: 15px 0px 15px 0px;
+}
+
+.smedia h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.smedia_links {
+    display: flex;
+    width: 210px;
+    margin: 0 auto;
+}
+
+.smedia_links :nth-child(n + 2) {
+    margin-left: 15px;
+}
+
+.smedia_links a img {
+    border-radius: 25% 25%;
+    width: 60px;
+    height: 60px;
 }
 
 footer {
@@ -113,13 +142,4 @@ footer {
 .footer_info {
     padding: 30px 0px 30px 0px;
     text-align: center;
-}
-
-.smedia * {
-    max-height: 100px;
-    border-radius: 30px 30px;
-}
-
-.smedia :nth-child(2), .smedia :nth-child(3) {
-    margin-left: 15px;
 }

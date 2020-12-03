@@ -8,6 +8,10 @@
         font-size: 24px;
     }
 
+    h3 {
+        font-size: 20px;
+    }
+
     p {
         font-size: 16px;
     }
@@ -27,6 +31,22 @@
 
     nav {
         max-width: 750px;
+    }
+
+    .smedia {
+        margin: 0;
+        display: flex;
+        width: 555px;
+        align-items: center;
+        margin-left: auto;
+    }
+    
+    .smedia h2 {
+        margin: 0px;
+    }
+
+    .smedia_links {
+        margin-left: 15px;
     }
 
 }

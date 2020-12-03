@@ -8,6 +8,10 @@
         font-size: 20px;
     }
 
+    h3 {
+        font-size: 16px;
+    }
+
     p {
         font-size: 15px;
     }
@@ -35,6 +39,15 @@
 
     .navigation li:first-child {
         display: none;
+    }
+
+    .smedia_links {
+        width: 255px;
+    }
+    
+    .smedia_links a img {
+        width: 75px;
+        height: 75px;
     }
 
 }
