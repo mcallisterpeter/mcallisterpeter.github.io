@@ -33,6 +33,18 @@
         max-width: 750px;
     }
 
+    .call_to_act div {
+        display: flex;
+    }
+
+    .call_to_act div * {
+        margin-right: 15px;
+    }
+
+    .call_to_act h1, .call_to_rent h1 {
+        font-size: 40px;
+    }
+
     .smedia {
         margin: 0;
         display: flex;

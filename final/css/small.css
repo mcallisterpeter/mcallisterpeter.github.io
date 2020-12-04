@@ -119,6 +119,46 @@ nav {
     max-width: 100%;
 }
 
+.call_to_act {
+    color: #ed1c24;
+    margin: 5px 0px 15px 0px;
+}
+
+.call_to_act div {
+    display: flex;
+    margin: 0 auto;
+}
+
+.call_to_act div:first-child {
+    width: 299px;
+}
+
+.call_to_act div:last-child {
+    width: 247px;
+}
+
+.call_to_act div :first-child {
+    margin-right: 5px;
+}
+
+.call_to_act h1 {
+    font-size: 20px;
+}
+
+.call_to_rent {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.call_to_rent h1 {
+    font-size: 18px;
+}
+
+.call_to_rent a{
+    text-decoration: none;
+    color: blue;
+}
+
 main {
     max-width: 1300px;
     margin: 0 auto;

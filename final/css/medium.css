@@ -47,6 +47,43 @@
         display: none;
     }
 
+    .hero_sect {
+        position: relative;
+    }
+
+    .call_to_act {
+        position: absolute;
+        margin: 0px;
+        padding: 10px;
+        top: 5%;
+        left: 1%;
+        color: white;
+        background-color: rgba(237, 28, 36, 0.7);
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+        text-align: left;
+    }
+
+    .call_to_act div {
+        display: block;
+        margin: 0;
+    }
+
+    .call_to_act div:first-child {
+        width: auto;
+    }
+    
+    .call_to_act div:last-child {
+        width: auto;
+    }
+
+    .call_to_act h1, .call_to_rent h1 {
+        font-size: 26px;
+    }
+
+    .call_to_rent {
+        margin-top: 10px;
+    }
+
     .smedia_links {
         width: 255px;
     }
