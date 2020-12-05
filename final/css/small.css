@@ -162,18 +162,79 @@ nav {
 main {
     max-width: 1300px;
     margin: 0 auto;
-    border: 1px solid red;
     padding: 1%;
 }
 
-.mycontent {
-    margin-left: 5px;
-    margin-right: 5px;
-    border: 1px solid black;
+.rent_sum {
+    text-align: center;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.rent_sum h2 {
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+.vcle {
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 5px 5px;
+    padding: 5px;
+}
+
+.vinfo {
+    margin-bottom: 5px;
+}
+
+.vimg {
+    width: 400px;
+    height: 150px;
+    max-width: 100%;
+    background-color: green;
+    margin: 0 auto;
+}
+
+.cur_weather {
+    max-width: 250px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.cur_weather h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.cur_wthr_tbl {
+    margin: 0 auto;
+}
+
+.fcol {
+    text-align: right;
+}
+
+#curDesc {
+    text-transform: capitalize;
+}
+
+.cs_info h2 {
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.cinfo {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cinfo .loc {
+    font-weight: bold;
 }
 
 .smedia {
-    padding: 15px 0px 15px 0px;
+    padding: 20px 0px 15px 0px;
 }
 
 .smedia h2 {

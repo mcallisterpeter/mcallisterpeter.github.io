@@ -55,25 +55,100 @@
             <a href="https://mcallisterpeter.github.io/final/reservations.html"><h1>>>MAKE YOUR RESERVATION NOW<<</h1></a>
         </div>
         <main>
-            <div class="mycontent">
-                <p>My home page.  This is some sample text</p>
+            <div class="rent_sum">
+                <div class="vcle">
+                    <div class="vinfo">
+                        <h2>Scooter</h2>
+                        <p>Honda Metropolitan (49cc) - 1 person</p>
+                        <p>Honda Dio (110cc) - 2 person</p>
+                        <p>Honda PCX150 (149cc) - 2 person</p>
+                    </div>
+                    <div class="vimg"></div>
+                </div>
+                <div class="vcle">
+                    <div class="vinfo">
+                        <h2>ATV Side-by-Side</h2>
+                        <p>Honda Pioneer 1000</p>
+                    </div>
+                    <div class="vimg"></div>
+                </div>
+                <div class="vcle">
+                    <div class="vinfo">
+                        <h2>Jeep</h2>
+                        <p>4-door Jeep Wrangler - manual with A/C - 5 people max</p>
+                        <p>2-door Jeep Wrangler - open air - manual - 4 people max</p>
+                    </div>
+                    <div class="vimg"></div>
+                </div>
             </div>
-            <div class="smedia">
-                <h2>Follow us On Social Media:</h2>
-                <div class="smedia_links">
-                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook Image"></a>
-                    <a href="https://hangouts.google.com/" target="_blank"><img src="images/hangouts.png" alt="Hangouts Image"></a>
-                    <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter Image"></a>
+            <div class="weather">
+                <div class="cur_weather">
+                    <h2>Current Weather</h2>
+                    <table class="cur_wthr_tbl">
+                        <tr>
+                            <td class="fcol">Temperature: </td>
+                            <td><span id="curTemp"></span>°F</td>
+                        </tr>
+                        <tr>
+                            <td class="fcol">Wind Speed: </td>
+                            <td><span id="curDesc"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="fcol">Humidity: </td>
+                            <td><span id="curHum"></span>%</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="cur_weather">
+                    <h2>Forecast</h2>
+                    <table class="cur_wthr_tbl">
+                        <tr>
+                            <td class="fcol"><span id="myDay1"></span>: </td>
+                            <td><span id="forTemp1"></span>°F</td>
+                        </tr>
+                        <tr>
+                            <td class="fcol"><span id="myDay2"></span>: </td>
+                            <td><span id="forTemp2"></span>°F</td>
+                        </tr>
+                        <tr>
+                            <td class="fcol"><span id="myDay3"></span>: </td>
+                            <td><span id="forTemp3"></span>°F</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="cs_info">
+                <div class="cinfo">
+                    <h2>Locations</h2>
+                    <p class="loc">Playa del Carmen-Cozumel Ferry</p>
+                    <p><span>&#10148;</span>Av. Rafael E. Melgar 00<br>Centro, 77600 Cozumeld, Q.R., Mexico</p>
+                    <p><span>&#9742;</span> +52 (987) 777 7777</p>
+                    <br>
+                    <p class="loc">Terminal Puerta Maya</p>
+                    <p><span>&#10148;</span>Carr. Chancanab Km 4.5 Local 6-1<br>Costera Sur, 77600 San Miguel de Cozumel, Q.R., Mexico</p>
+                    <p><span>&#9742;</span> +52 (987) 888 8888</p>
+                    <br>
+                    <h2>Email</h2>
+                    <p><span>&#9993;</span> scoots@myemail.com</p>
+                </div>
+                <div class="smedia">
+                    <h2>Follow us On Social Media</h2>
+                    <div class="smedia_links">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook Image"></a>
+                        <a href="https://hangouts.google.com/" target="_blank"><img src="images/hangouts.png" alt="Hangouts Image"></a>
+                        <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter Image"></a>
+                    </div>
                 </div>
             </div>
         </main>
         <footer>
             <div class="footer_info">
-                <p>© 2020 | ~Scoots | Mexico</p>
+                <p>© 2020 | ~Scoots | Cozumel Mexico</p>
                 <br>
                 <p>Page Last Updated: December 1st, 2020</p>
             </div>
         </footer>
         <script src="js/ham_menu.js"></script>
+        <script src="js/weather_api.js"></script>
     </body>
 </html>

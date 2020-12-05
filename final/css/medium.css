@@ -84,6 +84,15 @@
         margin-top: 10px;
     }
 
+    .rent_sum {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .vcle {
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    }
+
     .smedia_links {
         width: 255px;
     }

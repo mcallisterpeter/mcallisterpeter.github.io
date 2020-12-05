@@ -45,20 +45,37 @@
         font-size: 40px;
     }
 
+    .vcle {
+        display: flex;
+        align-items: center;
+    }
+
+    .vinfo {
+        margin-bottom: 0px;
+    }
+
+    .vinfo, .vimg {
+        width: 50%;
+    }
+
+    .weather {
+        display: flex;
+    }
+
+    .cs_info {
+        display: flex;
+        align-items: center;
+    }
+
+    .cinfo {
+        text-align: left;
+    }
+
     .smedia {
         margin: 0;
-        display: flex;
         width: 555px;
         align-items: center;
         margin-left: auto;
-    }
-    
-    .smedia h2 {
-        margin: 0px;
-    }
-
-    .smedia_links {
-        margin-left: 15px;
     }
 
 }
