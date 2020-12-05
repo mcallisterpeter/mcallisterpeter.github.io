@@ -187,12 +187,27 @@ main {
     margin-bottom: 5px;
 }
 
+.rent_sum p {
+    margin-bottom: 15px;
+}
+
 .vimg {
-    width: 400px;
-    height: 150px;
-    max-width: 100%;
-    background-color: green;
     margin: 0 auto;
+}
+
+.vimg img {
+    width: 100%;
+}
+
+.loc_title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.weather {
+    margin-bottom: 100px;
 }
 
 .cur_weather {
