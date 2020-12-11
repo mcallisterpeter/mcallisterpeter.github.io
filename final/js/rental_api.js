@@ -6,27 +6,39 @@ fetch(forApi)
   })
   .then(function (jsObject) {
     console.table(jsObject);
-    const prophets = jsObject['prophets'];
-    for (let i = 0; i < prophets.length; i++ ) {
+    const rental = jsObject['rental'];
+    for (let i = 0; i < rental.length; i++ ) {
         let card = document.createElement('section');
-        let h2 = document.createElement('h2');
-        let p = document.createElement('p');
-        let p2 = document.createElement('p');
+        let h1 = document.createElement('h1');
+        let max = document.createElement('p');
+        let res_h2 = document.createElement('h2');
+        let res = document.createElement('p');
+        let mlk_h2 = document.createElement('h2');
+        let wlk = document.createElement('p');
         let image = document.createElement('img');
 
-        h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-        card.appendChild(h2);
+        h1.textContent = rental[i].vehicle;
+        card.appendChild(h1);
 
-        p.textContent = 'Date of Birth: ' + prophets[i].birthdate;
-        card.appendChild(p);
+        max.textContent = 'Maximum People: ' + rental[i].max_p;
+        card.appendChild(max);
 
-        p2.textContent = 'Birthplace: ' + prophets[i].birthplace;
-        card.appendChild(p2);
+        res_h2.textContent = 'Price for Reservations';
+        card.appendChild(res_h2);
+
+        res.textContent = 'Half Day Rental: $' + rental[i].reservation.hlf_day + '.00 | Full Day Rental: $' + rental[i].reservation.fll_day + '.00';
+        card.appendChild(res);
+
+        mlk_h2.textContent = 'Price for Walk-ins';
+        card.appendChild(mlk_h2);
+
+        wlk.textContent = 'Half Day Rental: $' + rental[i].walk_in.hlf_day + '.00 | Full Day Rental: $' + rental[i].walk_in.fll_day + '.00';
+        card.appendChild(wlk);
         
-        image.setAttribute('src', prophets[i].imageurl);
-        image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + prophets[i].order);
+        image.setAttribute('src', rental[i].img_src);
+        image.setAttribute('alt', rental[i].img_alt);
         card.appendChild(image);
 
-        document.querySelector('div.cards').appendChild(card);
+        document.querySelector('div.rent_cards').appendChild(card);
     }
   });

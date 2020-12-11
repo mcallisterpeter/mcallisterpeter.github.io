@@ -11,7 +11,8 @@
                 "hlf_day": 25,
                 "fll_day": 35
             },
-            "img_src": "/final/images/hmtro.jpg"
+            "img_src": "/final/images/hmtro.jpg",
+            "img_alt": "Image of Honda Metro Scooter"
         },
         {
             "vehicle": "~Honda Dio Scooter",
@@ -24,7 +25,8 @@
                 "hlf_day": 35,
                 "fll_day": 45
             },
-            "img_src": "/final/images/hdio.jpg"
+            "img_src": "/final/images/hdio.jpg",
+            "img_alt": "Image of Honda Dio Scooter"
         },
         {
             "vehicle": "~Honda PCX150 Scooter",
@@ -37,7 +39,8 @@
                 "hlf_day": 45,
                 "fll_day": 55
             },
-            "img_src": "/final/images/hpcx.jpg"
+            "img_src": "/final/images/hpcx.jpg",
+            "img_alt": "Image of Honda PCX150 Scooter"
         },
         {
             "vehicle": "Honda Pioneer ATV",
@@ -50,7 +53,8 @@
                 "hlf_day": 60,
                 "fll_day": 80
             },
-            "img_src": "/final/images/hpio.jpg"
+            "img_src": "/final/images/hpio.jpg",
+            "img_alt": "Image of Honda Pioneer ATV"
         },
         {
             "vehicle": "Jeep Wrangler - 4 door with a/c",
@@ -63,7 +67,8 @@
                 "hlf_day": 85,
                 "fll_day": 125
             },
-            "img_src": "/final/images/jwr4.jpg"
+            "img_src": "/final/images/jwr4.jpg",
+            "img_alt": "Image of Jeep Wrangler"
         },
         {
             "vehicle": "Jeep Wrangler - 2 door",
@@ -76,7 +81,8 @@
                 "hlf_day": 70,
                 "fll_day": 90
             },
-            "img_src": "/final/images/jwr2.jpg"
+            "img_src": "/final/images/jwr2.jpg",
+            "img_alt": "Image of Jeep Wrangler"
         }
     ]
 }
