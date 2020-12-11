@@ -284,30 +284,4 @@ footer {
     text-align: center;
 }
 
-.three-col {
-    display: grid;
-    grid-template-columns: 250px 33% 16%;
-    grid-column-gap: 40px;
-    align-items: center;
-}
-
-
-
-
-.first-column {
-    width: 250px;
-    height: 400px;
-    background-color: green;
-}
-
-.second-column {
-    background-color: grey;
-    height: 250px;
-}
-
-.third-column {
-    background-color: lightblue;
-    height: 150px;
-}
-
 

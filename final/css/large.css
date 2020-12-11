@@ -67,11 +67,14 @@
         align-items: center;
     }
 
+    .cinfo {
+        margin: 0 auto;
+    }
+
     .smedia {
         margin: 0;
-        width: 555px;
         align-items: center;
-        margin-left: auto;
+        margin: 0 auto;
     }
 
 }
