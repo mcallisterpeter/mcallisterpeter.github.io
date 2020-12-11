@@ -77,4 +77,8 @@
         margin: 0 auto;
     }
 
+    .rent_cards {
+        grid-template-columns: repeat(auto-fit, minmax(536px, 1fr));
+    }
+
 }

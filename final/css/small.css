@@ -273,6 +273,47 @@ main {
     height: 60px;
 }
 
+/*SPECIFIC TO RENTAL PAGE*/
+
+.rent_title {
+    text-align: center;
+    margin: 25px 0px 25px 0px;
+}
+
+.rent_cards {
+    display: grid;
+}
+
+.rent_cards .cards {
+    padding: 15px;
+    margin: 3px;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+}
+
+.rent_cards h1 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.rent_cards p {
+    margin-bottom: 10px;
+}
+
+.rent_img {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.rent_img img {
+    margin-top: 15px;
+    /*border-radius: 5px;
+    box-shadow: 0 0 10px #111;*/
+    width: 100%;
+}
+
 footer {
     margin-top: 15px;
     background-color: #026f4b;
