@@ -1,0 +1,82 @@
+{
+    "rental": [
+        {
+            "vehicle": "~Honda Metro Scooter",
+            "max_p": 1,
+            "reservation": {
+                "hlf_day": 20,
+                "fll_day": 30
+            },
+            "walk_in": {
+                "hlf_day": 25,
+                "fll_day": 35
+            },
+            "img_src": "/final/images/hmtro.jpg"
+        },
+        {
+            "vehicle": "~Honda Dio Scooter",
+            "max_p": 2,
+            "reservation": {
+                "hlf_day": 30,
+                "fll_day": 40
+            },
+            "walk_in": {
+                "hlf_day": 35,
+                "fll_day": 45
+            },
+            "img_src": "/final/images/hdio.jpg"
+        },
+        {
+            "vehicle": "~Honda PCX150 Scooter",
+            "max_p": 2,
+            "reservation": {
+                "hlf_day": 40,
+                "fll_day": 50
+            },
+            "walk_in": {
+                "hlf_day": 45,
+                "fll_day": 55
+            },
+            "img_src": "/final/images/hpcx.jpg"
+        },
+        {
+            "vehicle": "Honda Pioneer ATV",
+            "max_p": 4,
+            "reservation": {
+                "hlf_day": 50,
+                "fll_day": 70
+            },
+            "walk_in": {
+                "hlf_day": 60,
+                "fll_day": 80
+            },
+            "img_src": "/final/images/hpio.jpg"
+        },
+        {
+            "vehicle": "Jeep Wrangler - 4 door with a/c",
+            "max_p": 5,
+            "reservation": {
+                "hlf_day": 70,
+                "fll_day": 100
+            },
+            "walk_in": {
+                "hlf_day": 85,
+                "fll_day": 125
+            },
+            "img_src": "/final/images/jwr4.jpg"
+        },
+        {
+            "vehicle": "Jeep Wrangler - 2 door",
+            "max_p": 2,
+            "reservation": {
+                "hlf_day": 60,
+                "fll_day": 85
+            },
+            "walk_in": {
+                "hlf_day": 70,
+                "fll_day": 90
+            },
+            "img_src": "/final/images/jwr2.jpg"
+        }
+    ]
+}
