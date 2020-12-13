@@ -35,21 +35,20 @@
         <main>
             <div class="rent_input">
                 <form method="get" action="https://mcallisterpeter.github.io/lesson11/thanks.html">
-                    <h2>Rental Info</h2>
+                    <h2>Reservation Form</h2>
                     <label for="s-date">Rental Start Date:</label>
                     <input type="date" id="s-date" name="s-date" size="10">
                     <label for="e-date">Rental End Date:</label>
                     <input type="date" id="e-date" name="e-date" size="10">
                     <label for="type">Requested Vehicle:</label>
-                    <input list="stype" id="type" name="type" size="10">
-                    <datalist id="stype">
-                        <option value="~Honda Metro Scooter">
-                        <option value="~Honda Dio Scooter">
-                        <option value="~Honda PCX150 Scooter">
-                        <option value="Honda Pioneer ATV">
-                        <option value="Jeep Wrangler - 4 door with a/c">
-                        <option value="Jeep Wrangler - 2 door">
-                    </datalist>
+                    <select id="vtype" name="vtype">
+                        <option>~Honda Metro Scooter</option>
+                        <option>~Honda Dio Scooter</option>
+                        <option>~Honda PCX150 Scooter</option>
+                        <option>Honda Pioneer ATV</option>
+                        <option>Jeep Wrangler - 4 door with a/c</option>
+                        <option>Jeep Wrangler - 2 door</option>
+                    </select>
                     <label for="name">Full Name:</label>
                     <input type="text" id="name" name="fullname" required minlength="5" pattern="[A-Za-z_ ]{5,}" size="20" placeholder="John Doe">
                     <label for="phone">Phone Number: </label>

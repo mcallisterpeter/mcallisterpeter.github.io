@@ -334,6 +334,30 @@ form {
     display: grid;
 }
 
+select#vtype option[value="~Honda Metro Scooter"] {
+    background-image:url(/final/images/hmtro.jpg);
+}
+
+select#vtype option[value="~Honda Dio Scooter"] {
+    background-image:url(/final/images/hdio.jpg);
+}
+
+select#vtype option[value="~Honda PCX150 Scooter"] {
+    background-image:url(/final/images/hpcx.jpg);
+}
+
+select#vtype option[value="Honda Pioneer ATV"] {
+    background-image:url(/final/images/hpio.jpg);
+}
+
+select#vtype option[value="Jeep Wrangler - 4 door with a/c"] {
+    background-image:url(/final/images/jwr4.jpg);
+}
+
+select#vtype option[value="Jeep Wrangler - 2 door"] {
+    background-image:url(/final/images/jwr2.jpg);
+}
+
 /*   ↑ SPECIFIC TO RESERVATION PAGE ↑   */
 
 footer {
