@@ -273,7 +273,9 @@ main {
     height: 60px;
 }
 
-/*SPECIFIC TO RENTAL PAGE*/
+/*
+   ↓ SPECIFIC TO RENTAL PAGE ↓
+*/
 
 .rent_title {
     text-align: center;
@@ -313,6 +315,26 @@ main {
     box-shadow: 0 0 10px #111;*/
     width: 100%;
 }
+
+/*   ↑ SPECIFIC TO RENTAL PAGE ↑   */
+
+
+
+/*   ↓ SPECIFIC TO RESERVATION PAGE ↓   */
+
+.rent_input {
+    border: 1px solid black;
+    max-width: 350px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+    display: grid;
+}
+
+/*   ↑ SPECIFIC TO RESERVATION PAGE ↑   */
 
 footer {
     margin-top: 15px;
