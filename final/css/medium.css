@@ -106,4 +106,8 @@
         font-size: 28px;
     }
 
+    .lcar, .rcar {
+        display: none;
+    }
+
 }

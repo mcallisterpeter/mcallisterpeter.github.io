@@ -81,4 +81,12 @@
         grid-template-columns: repeat(auto-fit, minmax(536px, 1fr));
     }
 
+    .res_main {
+        padding: 0;
+    }
+
+    .lcar, .rcar {
+        display: inline;
+    }
+
 }

@@ -322,11 +322,16 @@ main {
 
 /*   ↓ SPECIFIC TO RESERVATION PAGE ↓   */
 
+.res_main {
+    max-width: 100%;
+    padding: 5px;
+}
+
 .lcar, .rcar {
     position: absolute;
-    max-width: 30%;
     top: 100px;
     max-height: 800px;
+    display: none;
 }
 
 .lcar {
@@ -343,6 +348,8 @@ main {
     padding: 25px;
     margin: 0 auto;
     display: flex;
+    background: rgb(186, 212, 203);
+    position: relative;
 }
 
 form {
