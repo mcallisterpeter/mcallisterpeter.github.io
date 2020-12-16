@@ -383,6 +383,36 @@ form div label {
 
 /*   ↑ SPECIFIC TO RESERVATION PAGE ↑   */
 
+
+/*   ↓ SPECIFIC TO TOURS PAGE ↓   */
+
+.tours {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+.tour_div {
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px #111;
+}
+
+.tour_div .tour_imgs[data-src] {
+    filter: blur(5px);
+}
+
+.tour_div .tour_imgs {
+    filter: blur(0px);
+    transition: filter 0.5s;
+}
+
+.tour_imgs {
+    width: 100%;
+}
+
+/*   ↑ SPECIFIC TO TOURS PAGE ↑   */
+
 footer {
     margin-top: 15px;
     background-color: #026f4b;
