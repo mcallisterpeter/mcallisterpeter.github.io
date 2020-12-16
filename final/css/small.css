@@ -414,6 +414,60 @@ form div label {
 
 /*   ↑ SPECIFIC TO TOURS PAGE ↑   */
 
+/*   ↓ SPECIFIC TO CONTACT PAGE ↓   */
+
+.contact_header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.lctns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    box-shadow: 0 0 15px #111;
+    padding: 5px;
+}
+
+.lctns_info {
+    width: 50%;
+    text-align: center;
+    padding-right: 15px;
+}
+
+.lctns_info h2 {
+    margin-bottom: 5px;
+}
+
+.lctns_info form {
+    margin-top: 15px;
+    display: grid;
+    justify-items: center;
+}
+
+.lctns_info form :nth-child(2) {
+    text-align: center;
+}
+
+.lctns_info form :nth-child(3) {
+    margin-top: 15px;
+}
+
+.lctns_info form :nth-child(4) {
+    width: 90%;
+    min-height: 200px;
+}
+
+.lctns_info form :last-child {
+    margin-top: 15px;
+}
+
+iframe {
+    width: 50%;
+}
+
+/*   ↑ SPECIFIC TO CONTACT PAGE ↑   */
+
 footer {
     margin-top: 15px;
     background-color: #026f4b;
