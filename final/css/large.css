@@ -95,6 +95,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .tour_div {
+        margin: 50px;
+    }
+
     /*   ↑ SPECIFIC TO TOURS PAGE ↑   */
 
 }
