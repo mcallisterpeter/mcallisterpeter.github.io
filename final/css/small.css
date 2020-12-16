@@ -115,6 +115,9 @@ nav {
     color: white;
 }
 
+
+/*   ↓ SPECIFIC TO INDEX PAGE ↓   */
+
 .hero img {
     max-width: 100%;
 }
@@ -273,6 +276,9 @@ main {
     height: 60px;
 }
 
+/*   ↑ SPECIFIC TO INDEX PAGE ↑   */
+
+
 /*
    ↓ SPECIFIC TO RENTAL PAGE ↓
 */
@@ -425,7 +431,9 @@ form div label {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    box-shadow: 0 0 15px #111;
+    border-radius: 5px 5px;
+    border: 2px solid black;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
     padding: 5px;
 }
 
@@ -464,6 +472,8 @@ form div label {
 
 iframe {
     width: 50%;
+    border: 1px solid rgb(163, 162, 162);
+    border-radius: 5px 5px;
 }
 
 /*   ↑ SPECIFIC TO CONTACT PAGE ↑   */
