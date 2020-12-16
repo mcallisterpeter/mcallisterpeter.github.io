@@ -91,7 +91,9 @@
 
     /*   ↓ SPECIFIC TO TOURS PAGE ↓   */
 
-    
+    .tours {
+        grid-template-columns: 1fr 1fr;
+    }
 
     /*   ↑ SPECIFIC TO TOURS PAGE ↑   */
 
