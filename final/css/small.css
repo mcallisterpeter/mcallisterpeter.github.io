@@ -518,4 +518,13 @@ footer {
     text-align: center;
 }
 
+.src_lnk {
+    text-decoration: none;
+    color: white;
+}
+
+.src_lnk:hover {
+    color: #ed1c24;
+}
+
 
