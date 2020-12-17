@@ -507,6 +507,15 @@ iframe {
 
 /*   ↑ SPECIFIC TO CONTACT PAGE ↑   */
 
+/*   ↓ SPECIFIC TO CONFIRMATION PAGE ↓   */
+
+.conf_header {
+    text-align: center;
+    margin: 25px;
+}
+
+/*   ↑ SPECIFIC TO CONFIRMATION PAGE ↑   */
+
 footer {
     margin-top: 15px;
     background-color: #026f4b;
