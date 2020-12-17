@@ -350,7 +350,8 @@ main {
 }
 
 .rent_input {
-    border: 1px solid black;
+    border: 2px solid black;
+    border-radius: 5px;
     max-width: 500px;
     padding: 25px;
     margin: 0 auto;
