@@ -394,6 +394,11 @@ form div label {
 
 /*   ↓ SPECIFIC TO TOURS PAGE ↓   */
 
+.tour_head {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 .tours {
     display: grid;
     justify-items: center;
@@ -422,6 +427,10 @@ form div label {
 
 .tour_imgs {
     width: 100%;
+}
+
+.tour_div h2, .tour_div p {
+    margin: 5px;
 }
 
 /*   ↑ SPECIFIC TO TOURS PAGE ↑   */
