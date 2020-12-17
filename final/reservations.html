@@ -53,7 +53,7 @@
                     <div>
                         <label for="vtype">Requested Vehicle:</label>
                         <select id="vtype" name="vtype" required>
-                            <option selected disabled>Select Vehicle</option>
+                            <option value="" disabled selected>Select Vehicle</option>
                             <option>~Honda Metro Scooter</option>
                             <option>~Honda Dio Scooter</option>
                             <option>~Honda PCX150 Scooter</option>
@@ -64,7 +64,7 @@
                     </div>
                     <div>
                         <label for="name">Full Name:</label>
-                        <input type="text" id="name" name="fullname" required minlength="5" pattern="[A-Za-z_ ]{5,}" size="20" placeholder="John Doe">
+                        <input type="text" id="name" name="name" required minlength="5" pattern="[A-Za-z_ ]{5,}" size="20" placeholder="John Doe">
                     </div>
                     <div>
                         <label for="phone">Phone Number: </label>
@@ -75,12 +75,12 @@
                         <input type="email" id="email" name="email" required placeholder="johndoe@email.com" size="20">
                     </div>
                     <div>
-                        <label for="name">Country:</label>
-                        <input type="text" id="name" name="fullname" required size="20" placeholder="United States">
+                        <label for="cntry">Country:</label>
+                        <input type="text" id="cntry" name="cntry" required size="20" placeholder="United States">
                     </div>
                     <div>
-                        <label for="name">Cruise Line:</label>
-                        <input type="text" id="name" name="fullname" required size="20" placeholder="Royal Carrabean">
+                        <label for="cruise">Cruise Line:</label>
+                        <input type="text" id="cruise" name="cruise" required size="20" placeholder="Royal Carrabean">
                     </div>
                     <div>
                         <label for="comments">Special Accommodations / Comments:</label>
