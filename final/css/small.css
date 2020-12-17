@@ -334,6 +334,11 @@ main {
     padding: 5px;
 }
 
+.res_header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 .lcar, .rcar {
     position: absolute;
     top: 100px;
@@ -355,9 +360,18 @@ main {
     max-width: 500px;
     padding: 25px;
     margin: 0 auto;
-    display: flex;
     background: rgb(186, 212, 203);
     position: relative;
+}
+
+.tandc {
+    text-align: left;
+    font-size: 11px;
+    margin-bottom: 25px;
+}
+
+.tc_div {
+    display: flex;
 }
 
 form {

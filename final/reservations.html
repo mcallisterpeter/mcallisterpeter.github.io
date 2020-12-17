@@ -33,6 +33,10 @@
             </nav>
         </header>
         <main class="res_main">
+            <div class="res_header">
+                <h1>Make Your Reservation Here</h1>
+                <p></p>
+            </div>
             <img class="lcar" src="images/hdio_hlf.jpeg" alt="Honda Dio">
             <img class="rcar" src="images/jwr4_hlf.jpg" alt="Jeep Wrangler">
             <div class="rent_input">
@@ -82,7 +86,24 @@
                         <label for="comments">Special Accommodations / Comments:</label>
                         <textarea name="comments" id="comments"></textarea>
                     </div>
-                        <input type="submit">
+                    <p style="font-weight: bold;">Terms and Conditions</p>
+                    <ul class="tandc">
+                        <li>A $50 security deposit is required to confirm reservations</li>
+                        <li>A valid drivers license is required in hand at time of rental</li>
+                        <li>No one under 12 years of age are allowed to ride on the scooters</li>
+                        <li>Fuel charge not included</li>
+                        <li>Unlimited mileage</li>
+                        <li>Liability insurance is free of charge</li>
+                        <li>Reservations rate requires 24 hour prior notification</li>
+                        <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals</li>
+                        <li>Payment via Google Pay, cash, credit card, debit card, or PayPal</li>
+                        <li>Rentals may be returned to either location</li>
+                    </ul>
+                    <div class="tc_div">
+                        <input type="checkbox" id="tc_agree" name="tc_agree" required>
+                        <label for="tc_agree" style="margin-left: 5px;"> I have Read and Agree with the Terms and Conditions</label>
+                    </div>
+                    <input type="submit">
                 </form>
             </div>
         </main>
