@@ -336,7 +336,7 @@ main {
 
 .res_header {
     text-align: center;
-    margin-bottom: 50px;
+    margin: 50px;
 }
 
 .lcar, .rcar {
