@@ -101,4 +101,24 @@
 
     /*   ↑ SPECIFIC TO TOURS PAGE ↑   */
 
+
+    /*   ↓ SPECIFIC TO CONTACT PAGE ↓   */
+
+    .lctns {
+    display: flex;
+    width: auto;
+    }
+
+    .lctns_info {
+        width: 50%;
+    }
+    
+    iframe {
+        margin: 0;
+        width: 50%;
+        height: auto;
+    }
+
+/*   ↑ SPECIFIC TO CONTACT PAGE ↑   */
+
 }
